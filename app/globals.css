@@ -1,0 +1,229 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --paper: #faf7f0;
+  --paper-soft: #fdfcf9;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--paper);
+    /* A faint paper grain so the page feels warm rather than flat/generic. */
+    background-image:
+      radial-gradient(circle at 20% 15%, rgba(192, 111, 79, 0.05), transparent 42%),
+      radial-gradient(circle at 82% 8%, rgba(30, 58, 95, 0.05), transparent 40%);
+    background-attachment: fixed;
+    color: #23272f;
+    font-feature-settings: 'kern', 'liga', 'calt';
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background: rgba(30, 58, 95, 0.16);
+  }
+
+  h1, h2, h3, h4 {
+    text-wrap: balance;
+  }
+}
+
+@layer components {
+  .shimmer {
+    background: linear-gradient(
+      90deg,
+      rgba(232, 223, 204, 0.35) 25%,
+      rgba(232, 223, 204, 0.65) 37%,
+      rgba(232, 223, 204, 0.35) 63%
+    );
+    background-size: 1360px 100%;
+    @apply animate-shimmer;
+  }
+
+  /* Small underline flourish for section eyebrows */
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-clay;
+  }
+  .eyebrow::before {
+    content: '';
+    @apply h-px w-6 bg-clay/60;
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────
+   Article typography — hand-tuned instead of a stock prose plugin.
+   Body 18px, line-height 1.8, warm blockquotes, tidy code blocks.
+   ───────────────────────────────────────────────────────────── */
+.article-prose {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #33383f;
+}
+
+.article-prose > * + * {
+  margin-top: 1.5em;
+}
+
+.article-prose p {
+  margin-top: 1.35em;
+}
+
+.article-prose h2 {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 1.72em;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: #1c2230;
+  margin-top: 2.2em;
+  margin-bottom: 0.2em;
+  scroll-margin-top: 6rem;
+}
+
+.article-prose h3 {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 1.32em;
+  font-weight: 600;
+  color: #1c2230;
+  margin-top: 1.8em;
+  margin-bottom: 0.1em;
+  scroll-margin-top: 6rem;
+}
+
+.article-prose a {
+  color: #1e3a5f;
+  text-decoration: underline;
+  text-decoration-color: rgba(30, 58, 95, 0.3);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.2s ease;
+}
+.article-prose a:hover {
+  text-decoration-color: rgba(30, 58, 95, 0.9);
+}
+
+.article-prose strong {
+  color: #1c2230;
+  font-weight: 650;
+}
+
+.article-prose ul,
+.article-prose ol {
+  padding-left: 1.4em;
+  margin-top: 1.2em;
+}
+.article-prose ul { list-style: none; }
+.article-prose ul > li {
+  position: relative;
+  padding-left: 1.4em;
+  margin-top: 0.55em;
+}
+.article-prose ul > li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.75em;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #c06f4f;
+}
+.article-prose ol { list-style: decimal; }
+.article-prose ol > li { margin-top: 0.55em; padding-left: 0.3em; }
+.article-prose ol > li::marker { color: #1e3a5f; font-weight: 600; }
+
+.article-prose blockquote {
+  margin: 1.8em 0;
+  padding: 1.1em 1.5em;
+  border-left: 4px solid #c06f4f;
+  background: #f6e6dd;
+  border-radius: 0 0.9rem 0.9rem 0;
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-style: italic;
+  font-size: 1.08em;
+  color: #4a3b34;
+}
+.article-prose blockquote p { margin: 0; }
+.article-prose blockquote p + p { margin-top: 0.8em; }
+
+.article-prose code {
+  font-family: ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, monospace;
+  font-size: 0.88em;
+  background: #eef1f5;
+  color: #1e3a5f;
+  padding: 0.15em 0.4em;
+  border-radius: 0.35rem;
+}
+
+.article-prose pre {
+  margin: 1.8em 0;
+  padding: 1.2em 1.4em;
+  border-radius: 0.9rem;
+  background: #1c2230;
+  color: #e6e9ef;
+  overflow-x: auto;
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+.article-prose pre code {
+  background: transparent;
+  color: inherit;
+  padding: 0;
+  border-radius: 0;
+  font-size: inherit;
+}
+
+.article-prose img {
+  border-radius: 1rem;
+  box-shadow: 0 8px 28px -12px rgba(30, 41, 59, 0.3);
+}
+
+.article-prose hr {
+  border: 0;
+  height: 1px;
+  margin: 2.6em auto;
+  width: 40%;
+  background: linear-gradient(90deg, transparent, rgba(30, 58, 95, 0.35), transparent);
+}
+
+.article-prose table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.94em;
+  margin: 1.8em 0;
+  display: block;
+  overflow-x: auto;
+}
+.article-prose th,
+.article-prose td {
+  border: 1px solid #e8dfcc;
+  padding: 0.6em 0.9em;
+  text-align: left;
+}
+.article-prose th {
+  background: #f3ede0;
+  font-weight: 600;
+  color: #1c2230;
+}
+.article-prose tr:nth-child(even) td {
+  background: #fdfcf9;
+}
+
+/* First paragraph gets a subtle lead style */
+.article-prose > p:first-of-type {
+  font-size: 1.14em;
+  color: #2a2f38;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
