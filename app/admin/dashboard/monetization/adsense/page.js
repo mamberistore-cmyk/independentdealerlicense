@@ -2,6 +2,7 @@
 
 import { PageHeader, Card, Badge, Button } from '@/components/admin/ui';
 import Icon from '@/components/admin/Icon';
+import AdsenseReadiness from '@/components/admin/AdsenseReadiness';
 import { siteConfig } from '@/lib/config';
 
 export default function AdsensePage() {
@@ -10,7 +11,14 @@ export default function AdsensePage() {
 
   return (
     <div>
-      <PageHeader title="Google AdSense" subtitle="Auto Ads status and your publisher configuration." />
+      <PageHeader title="Google AdSense" subtitle="Approval readiness, Auto Ads status, and your publisher configuration." />
+
+      {/* Live approval-readiness checklist */}
+      <div className="mb-8">
+        <AdsenseReadiness />
+      </div>
+
+      <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-gray-400">Publisher configuration</h2>
 
       <div className="grid gap-4 lg:grid-cols-2">
         <Card className="p-5">
