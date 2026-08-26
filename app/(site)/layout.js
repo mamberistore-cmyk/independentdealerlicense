@@ -4,6 +4,7 @@ import Footer from '@/components/Footer';
 import { siteConfig } from '@/lib/config';
 
 const client = siteConfig.adsenseClient;
+const gaId = siteConfig.gaId;
 
 export const metadata = {
   other: {
@@ -30,6 +31,23 @@ export default function SiteLayout({ children }) {
 
   return (
     <>
+      {/* Google Analytics (GA4). Loads after hydration so it never blocks paint. */}
+      {gaId && (
+        <>
+          <Script
+            id="ga-lib"
+            strategy="afterInteractive"
+            src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
+          />
+          <Script id="ga-init" strategy="afterInteractive">
+            {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${gaId}');`}
+          </Script>
+        </>
+      )}
+
       {/* Google AdSense — Auto Ads. Loads lazily so it never blocks paint. */}
       <Script
         id="adsbygoogle-init"

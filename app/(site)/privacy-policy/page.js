@@ -30,6 +30,15 @@ export default function PrivacyPage() {
           technical data such as your IP address, browser type, and the pages you
           visit. This is used for security and aggregate analytics only.
         </p>
+        <p>
+          We use <strong>Google Analytics</strong> to understand how visitors use
+          the site. Google Analytics sets cookies and collects anonymized usage
+          data (such as pages viewed and approximate location) on our behalf. You
+          can opt out with the{' '}
+          <a href="https://tools.google.com/dlpage/gaoptout" rel="nofollow noopener" target="_blank">
+            Google Analytics Opt-out Browser Add-on
+          </a>.
+        </p>
 
         <h2>Cookies and advertising</h2>
         <p>
