@@ -19,26 +19,28 @@ export function generateMetadata({ params }) {
   if (!post) return { title: 'Not found' };
 
   const url = `${siteConfig.url}/blog/${post.slug}`;
+  const canonical = post.canonical || url;
+  const ogImage = post.ogImage || post.cover;
   return {
-    title: post.title,
+    title: post.seoTitle || post.title,
     description: post.description,
     keywords: post.tags,
-    alternates: { canonical: url },
+    alternates: { canonical },
     openGraph: {
       type: 'article',
       url,
-      title: post.title,
-      description: post.description,
+      title: post.ogTitle || post.seoTitle || post.title,
+      description: post.ogDescription || post.description,
       publishedTime: post.date,
       authors: [siteConfig.author.name],
       tags: post.tags,
-      images: [{ url: post.cover, width: 1200, height: 630, alt: post.title }],
+      images: [{ url: ogImage, width: 1200, height: 630, alt: post.title }],
     },
     twitter: {
       card: 'summary_large_image',
-      title: post.title,
-      description: post.description,
-      images: [post.cover],
+      title: post.ogTitle || post.seoTitle || post.title,
+      description: post.ogDescription || post.description,
+      images: [ogImage],
     },
   };
 }

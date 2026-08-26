@@ -75,14 +75,44 @@ Paste the result into `ADMIN_PASSWORD_HASH`.
 
 ---
 
-## 5. Publishing a post
+## 5. The Studio (admin dashboard)
 
-1. Go to `/admin` (this link is intentionally not shown anywhere on the site).
-2. Enter your admin password.
-3. Fill in **Title, Description, Date, Tags, and Body (Markdown)**. Hit **Preview** to see the rendered output, then **Publish**.
-4. The API creates `content/posts/<slug>.md`, commits it to GitHub, and triggers a rebuild. Your post is live after the deploy finishes.
+Go to `/admin` (this link is intentionally not shown anywhere on the site),
+enter your password, and you land in the **Studio** — a full CMS dashboard with
+a collapsible sidebar, top bar, global search, dark/light/system themes, and
+toast notifications. It’s responsive down to mobile (drawer navigation).
 
-Slugs are generated from the title (ASCII, lowercase, hyphenated) and de-duplicated automatically (`-1`, `-2`, …).
+**Modules that are fully wired to your real backend (GitHub):**
+
+- **Overview** — live post counts, publishing-activity chart, recent posts.
+- **Posts** — searchable, filterable (status/category/author), sortable table
+  with bulk selection, pagination, and per-row Edit / Duplicate / Preview / Trash.
+- **Add / Edit Post** — a rich editor: Markdown toolbar + live preview, slug,
+  excerpt, featured image, category, tags, a full **SEO panel** (live score,
+  Google preview, focus keyword, canonical), Open Graph fields, a pre-publish
+  checklist, autosave-to-browser with recovery, unsaved-changes warning, and
+  Save Draft / Preview / Schedule / Publish.
+- **Categories & Tags** — derived live from your posts.
+- **Media Library** — catalogues the images your posts reference.
+- **Pages** — lists your code-managed static pages.
+- **SEO** — per-post on-page score, and the **Sitemap** view.
+- **Settings → Integrations** — shows real connection status for GitHub,
+  AdSense, the deploy hook, and the session secret.
+- **Ad Placements & Redirects** — editable configs (saved in your browser).
+
+**Modules that show honest “connect your data” states** (no fake numbers),
+because this starter has no analytics/comments/users/revenue backend:
+Analytics, Comments, Users (single admin + role model), Search Console,
+Revenue. Each explains exactly what to connect to light it up.
+
+### Publishing a post
+
+1. **Posts → Add New Post**, or the **New Post** button anywhere.
+2. Fill in the title (the slug auto-generates), body, and any SEO/social fields.
+3. **Preview** to render, then **Publish** (or **Save Draft** / **Schedule**).
+4. The API writes `content/posts/<slug>.md`, commits it to GitHub, and triggers a
+   rebuild. Slugs are de-duplicated automatically (`-1`, `-2`, …). Drafts and
+   future-dated scheduled posts stay hidden from the public site until live.
 
 ---
 
@@ -99,34 +129,36 @@ Slugs are generated from the title (ASCII, lowercase, hyphenated) and de-duplica
 
 ```
 app/
-  layout.js                 Root layout, fonts, AdSense, SEO, header/footer
-  page.js                   Home page
-  globals.css               Custom design system + article typography
-  not-found.js              Custom 404
-  icon.svg                  Favicon (file-based metadata)
-  blog/
-    page.js                 Blog index (search + tag filter)
-    loading.js              Skeleton
-    [slug]/
-      page.js               Single post (SEO + schema + related)
-      loading.js            Skeleton
-  tags/[tag]/page.js        Tag archive
-  about/ contact/ privacy-policy/ terms/ disclaimer/   Static pages
+  layout.js                 Root layout (html/body/fonts/metadata only)
+  globals.css               Design system + article typography
+  not-found.js  icon.svg    Custom 404, file-based favicon
+  (site)/                   PUBLIC site (route group — URLs unchanged)
+    layout.js               Public chrome: header, footer, AdSense, schema
+    page.js                 Home
+    blog/                   Blog index + [slug] single post (+ skeletons)
+    tags/[tag]/page.js      Tag archive
+    about/ contact/ privacy-policy/ terms/ disclaimer/
   admin/
-    page.js                 Hidden login
-    dashboard/page.js       Post editor (auth-gated)
+    page.js                 Hidden login (own chrome)
+    dashboard/
+      layout.js             Auth gate + AdminShell (sidebar/topbar/theme)
+      page.js               Overview
+      posts/  posts/new/  posts/[slug]/edit/
+      categories/ tags/ media/ pages/ analytics/
+      comments/ users/ appearance/
+      seo/ seo/sitemap/ seo/search-console/ seo/redirects/
+      monetization/adsense|placements|revenue/
+      settings/
   api/
-    admin-verify/route.js   Password check -> session cookie
-    logout/route.js         Clears the cookie
-    preview/route.js        Renders Markdown preview (auth-gated)
-    create-post/route.js    Commits a new post to GitHub
-components/                 Header, Footer, PostCard, AdUnit, admin UI, ...
+    admin-verify · logout · preview                 (auth/session)
+    posts · post · create-post · update-post · delete-post   (content)
+components/                 Public components + components/admin/* (Studio UI)
 lib/
-  posts.js                  getPosts / getPostBySlug / getRelatedPosts
-  markdown.js               Markdown -> HTML (remark + gfm)
-  auth.js                   Password + signed session cookie
-  github.js                 GitHub Contents API client
-  slug.js  config.js        Slugify + site metadata
+  posts.js  markdown.js     Read/render posts
+  github.js                 GitHub Contents API (list/read/write/delete)
+  postDoc.js  seoScore.js   Frontmatter builder + SEO scoring
+  auth.js  adminNav.js      Session cookie + sidebar nav
+  slug.js  config.js
 content/posts/*.md          The articles
 middleware.js               Fast edge guard for /admin/dashboard
 next-sitemap.config.js      Sitemap + robots (runs on postbuild)

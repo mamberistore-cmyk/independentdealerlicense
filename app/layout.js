@@ -1,8 +1,5 @@
 import './globals.css';
 import { Inter, Fraunces } from 'next/font/google';
-import Script from 'next/script';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 import { siteConfig } from '@/lib/config';
 
 const inter = Inter({
@@ -51,10 +48,6 @@ export const metadata = {
     follow: true,
     googleBot: { index: true, follow: true, 'max-image-preview': 'large' },
   },
-  verification: {
-    // Add your Google Search Console token here when you verify the site.
-    // google: 'your-search-console-token',
-  },
 };
 
 export const viewport = {
@@ -64,59 +57,9 @@ export const viewport = {
 };
 
 export default function RootLayout({ children }) {
-  const client = siteConfig.adsenseClient;
-
-  // Site-wide navigation schema for richer search results.
-  const navSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'SiteNavigationElement',
-    name: siteConfig.nav.map((n) => n.label),
-    url: siteConfig.nav.map((n) => `${siteConfig.url}${n.href}`),
-  };
-
-  const orgSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Organization',
-    name: siteConfig.name,
-    url: siteConfig.url,
-    logo: `${siteConfig.url}/icon.svg`,
-  };
-
   return (
     <html lang="en" className={`${inter.variable} ${fraunces.variable}`}>
-      <head>
-        {/* Tells AdSense which publisher owns this site. */}
-        <meta name="google-adsense-account" content={client} />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(navSchema) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
-        />
-      </head>
-      <body className="min-h-screen font-sans antialiased">
-        {/* Google AdSense — Auto Ads. Loads lazily so it never blocks paint. */}
-        <Script
-          id="adsbygoogle-init"
-          async
-          strategy="afterInteractive"
-          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${client}`}
-          crossOrigin="anonymous"
-        />
-
-        <a
-          href="#main"
-          className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-navy focus:px-4 focus:py-2 focus:text-cream-50"
-        >
-          Skip to content
-        </a>
-
-        <Header />
-        <main id="main">{children}</main>
-        <Footer />
-      </body>
+      <body className="min-h-screen font-sans antialiased">{children}</body>
     </html>
   );
 }
