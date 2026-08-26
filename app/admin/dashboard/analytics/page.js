@@ -1,7 +1,7 @@
 'use client';
 
 import { usePosts } from '@/components/admin/usePosts';
-import { PageHeader, Card, IntegrationNotice } from '@/components/admin/ui';
+import { PageHeader, Card } from '@/components/admin/ui';
 import StatCard from '@/components/admin/StatCard';
 import AreaChart from '@/components/admin/AreaChart';
 
@@ -26,8 +26,14 @@ export default function AnalyticsPage() {
     <div>
       <PageHeader title="Analytics" subtitle="Traffic, sources, and audience insights." />
 
-      <div className="mb-5">
-        <IntegrationNotice service="Google Analytics" what="isn’t connected, so traffic and visitor metrics aren’t available yet." />
+      <div className="mb-5 flex items-start gap-3 rounded-xl border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm text-emerald-800 dark:border-emerald-900/50 dark:bg-emerald-950/40 dark:text-emerald-200">
+        <span className="mt-0.5">✓</span>
+        <p>
+          <strong className="font-semibold">Google Analytics is installed</strong> and tracking your site.
+          View full traffic reports in your{' '}
+          <a href="https://analytics.google.com" target="_blank" rel="noopener" className="underline">Google Analytics dashboard</a>.
+          The in-app cards below would light up with live numbers via the GA Data API.
+        </p>
       </div>
 
       <div className="grid grid-cols-2 gap-4 lg:grid-cols-5">

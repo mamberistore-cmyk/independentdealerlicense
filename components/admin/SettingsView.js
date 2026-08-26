@@ -134,8 +134,8 @@ export default function SettingsView({ tab, status }) {
           <IntegrationRow name="Google AdSense" ok={status.adsense} detail={status.adsense ? status.adsenseClient : ''} help="Set NEXT_PUBLIC_ADSENSE_CLIENT." />
           <IntegrationRow name="Vercel Deploy Hook" ok={status.deployHook} help="Optional — set VERCEL_DEPLOY_HOOK for instant rebuilds." />
           <IntegrationRow name="Session secret" ok={status.sessionSecret} help="Set SESSION_SECRET for signed sessions (a built-in fallback is used otherwise)." />
-          <IntegrationRow name="Google Analytics" ok={status.analytics} help="Add GA to light up traffic dashboards." />
-          <IntegrationRow name="Google Search Console" ok={status.searchConsole} help="Verify your property to surface search metrics." />
+          <IntegrationRow name="Google Analytics" ok={status.analytics} detail={status.analytics ? `${status.gaId} · tag installed site-wide` : ''} help="Add GA to light up traffic dashboards." />
+          <IntegrationRow name="Google Search Console" ok={status.searchConsole} detail={status.searchConsole ? 'Property verified' : ''} help="Verify your property to surface search metrics." />
         </div>
       )}
     </div>

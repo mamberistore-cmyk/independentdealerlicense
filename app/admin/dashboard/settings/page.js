@@ -16,8 +16,9 @@ export default function SettingsPage({ searchParams }) {
     deployHook: Boolean(process.env.VERCEL_DEPLOY_HOOK),
     sessionSecret: Boolean(process.env.SESSION_SECRET),
     passwordHash: Boolean(process.env.ADMIN_PASSWORD_HASH),
-    analytics: false,
-    searchConsole: false,
+    analytics: Boolean(siteConfig.gaId && !siteConfig.gaId.includes('XXXX')),
+    gaId: siteConfig.gaId,
+    searchConsole: siteConfig.searchConsoleVerified === true,
   };
 
   return <SettingsView tab={searchParams?.tab || 'general'} status={status} />;
