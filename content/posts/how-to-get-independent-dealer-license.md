@@ -4,7 +4,7 @@ description: "Learn how to apply for an independent dealer license, from busines
 date: "2026-08-27"
 tags: ["Dealership","dealer"]
 status: "published"
-author: "Marcus Delaney"
+author: "giorgi"
 seoTitle: "How to Get an Independent Dealer License: Step-by-Step"
 focusKeyword: "independent dealer license"
 canonical: "https://independentdealerlicense.com/blog/how-to-get-independent-dealer-license"
