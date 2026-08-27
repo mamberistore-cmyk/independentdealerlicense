@@ -39,9 +39,7 @@ Dealer in an auction house
 
 Car Broker
 
-The distinction is important because, in most cases, a wholesale dealer cannot act like an average retail used-car lot.
-![license application](https://images.unsplash.com/photo-1587116987928-21e47bd76cd2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
-Practical Example
+The distinction is important because, in most cases, a wholesale dealer cannot act like an average retail used-car lot. ![license application](https://images.unsplash.com/photo-1587116987928-21e47bd76cd2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) Practical Example
 
 Let’s say Daniel wants to go out and acquire cars at dealer auctions, then sell those cars straight to customers. He finds an ad online for a “cheap wholesale licence” and thinks this would work.
 
@@ -175,9 +173,7 @@ Dealer plates (Cont.)
 
 Consumer protection law
 
-Don’t approach the course as a pointless piece of paperwork. A mistake in the title might cost more than the course itself.
-![dealer](https://plus.unsplash.com/premium_photo-1682089485470-4d575051f326?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
-Step 7: Get the Dealer Surety Bond
+Don’t approach the course as a pointless piece of paperwork. A mistake in the title might cost more than the course itself. ![dealer](https://plus.unsplash.com/premium_photo-1682089485470-4d575051f326?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) Step 7: Get the Dealer Surety Bond
 
 Most states demand a bond from a dealer.
 
@@ -303,9 +299,7 @@ Correction of shortcomings
 
 Article final approval
 
-If the agency asks you to make an adjustment, answer swiftly and give precisely what was required.
-![dealer](https://images.unsplash.com/photo-1554224155-cfa08c2a758f?q=80&w=1126&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
-Step 13: Inspection Pass
+If the agency asks you to make an adjustment, answer swiftly and give precisely what was required. ![dealer](https://images.unsplash.com/photo-1554224155-cfa08c2a758f?q=80&w=1126&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) Step 13: Inspection Pass
 
 Always take the examination of premises seriously.
 
@@ -499,14 +493,11 @@ If the state requires 3 corrections, send 3 clearly marked corrections. Don’t 
 
 For instance:
 
-Deficiency 1: LLC does not match Bond name.
-Correct bond must be delivered.
+Deficiency 1: LLC does not match Bond name. Correct bond must be delivered.
 
-Deficiency 2 Sign picture is not legible.
-New high-res picture
+Deficiency 2 Sign picture is not legible. New high-res picture
 
-Deficiency 3: Zoning form not signed.
-Complete the zoning form.
+Deficiency 3: Zoning form not signed. Complete the zoning form.
 
 Make it simple for the reviewer. Clear apps tend to work better than complicated ones.
 
