@@ -2,6 +2,8 @@
 
 import { useRef, useState } from 'react';
 import Icon from './Icon';
+import { useToast } from './Toast';
+import { tidyText } from '@/lib/tidyText';
 
 const tools = [
   { key: 'bold', label: 'Bold', icon: 'B', wrap: ['**', '**'], text: 'bold text' },
@@ -20,9 +22,43 @@ const tools = [
 
 export default function MarkdownField({ value, onChange, minRows = 18 }) {
   const ref = useRef(null);
+  const { notify } = useToast();
   const [tab, setTab] = useState('write');
   const [preview, setPreview] = useState('');
   const [loadingPreview, setLoadingPreview] = useState(false);
+  const [autoTidy, setAutoTidy] = useState(true);
+
+  // When pasting, clean up the LAYOUT of the pasted text (broken lines,
+  // stray spaces) but keep every word — then insert it at the cursor.
+  const onPaste = (e) => {
+    if (!autoTidy) return;
+    const text = e.clipboardData?.getData('text/plain');
+    if (!text || !text.includes('\n')) return; // single line: nothing to reflow
+    e.preventDefault();
+    const ta = ref.current;
+    const start = ta.selectionStart;
+    const end = ta.selectionEnd;
+    const cleaned = tidyText(text);
+    const next = value.slice(0, start) + cleaned + value.slice(end);
+    onChange(next);
+    requestAnimationFrame(() => {
+      ta.focus();
+      const pos = start + cleaned.length;
+      ta.setSelectionRange(pos, pos);
+    });
+    notify('Pasted text tidied — your words are unchanged', 'success', 2200);
+  };
+
+  // Tidy the whole document on demand.
+  const tidyAll = () => {
+    const cleaned = tidyText(value);
+    if (cleaned === value.trim()) {
+      notify('Already tidy 👍', 'info', 1800);
+      return;
+    }
+    onChange(cleaned);
+    notify('Formatting tidied — words untouched', 'success');
+  };
 
   const apply = (tool) => {
     const ta = ref.current;
@@ -92,9 +128,27 @@ export default function MarkdownField({ value, onChange, minRows = 18 }) {
             {t.icon.length <= 2 ? t.icon : <Icon name={t.icon} className="h-4 w-4" />}
           </button>
         ))}
-        <div className="ml-auto flex rounded-lg bg-gray-200/70 p-0.5 dark:bg-zinc-800">
-          <button type="button" onClick={() => setTab('write')} className={`rounded-md px-3 py-1 text-xs font-medium ${tab === 'write' ? 'bg-white text-navy shadow-sm dark:bg-zinc-700 dark:text-white' : 'text-gray-500 dark:text-zinc-400'}`}>Write</button>
-          <button type="button" onClick={runPreview} className={`rounded-md px-3 py-1 text-xs font-medium ${tab === 'preview' ? 'bg-white text-navy shadow-sm dark:bg-zinc-700 dark:text-white' : 'text-gray-500 dark:text-zinc-400'}`}>Preview</button>
+        <div className="ml-auto flex items-center gap-2">
+          <button
+            type="button"
+            onClick={tidyAll}
+            title="Fix layout & spacing — never changes your words"
+            className="flex items-center gap-1 rounded-md px-2 py-1 text-xs font-semibold text-gray-600 hover:bg-white hover:text-navy dark:text-zinc-300 dark:hover:bg-zinc-700"
+          >
+            ✨ Tidy
+          </button>
+          <button
+            type="button"
+            onClick={() => setAutoTidy((v) => !v)}
+            title="Automatically tidy text you paste (layout only)"
+            className={`hidden rounded-md px-2 py-1 text-[11px] font-medium sm:block ${autoTidy ? 'bg-emerald-50 text-emerald-700 dark:bg-emerald-950/50 dark:text-emerald-300' : 'text-gray-400 dark:text-zinc-500'}`}
+          >
+            Auto-tidy paste: {autoTidy ? 'On' : 'Off'}
+          </button>
+          <div className="flex rounded-lg bg-gray-200/70 p-0.5 dark:bg-zinc-800">
+            <button type="button" onClick={() => setTab('write')} className={`rounded-md px-3 py-1 text-xs font-medium ${tab === 'write' ? 'bg-white text-navy shadow-sm dark:bg-zinc-700 dark:text-white' : 'text-gray-500 dark:text-zinc-400'}`}>Write</button>
+            <button type="button" onClick={runPreview} className={`rounded-md px-3 py-1 text-xs font-medium ${tab === 'preview' ? 'bg-white text-navy shadow-sm dark:bg-zinc-700 dark:text-white' : 'text-gray-500 dark:text-zinc-400'}`}>Preview</button>
+          </div>
         </div>
       </div>
 
@@ -103,6 +157,7 @@ export default function MarkdownField({ value, onChange, minRows = 18 }) {
           ref={ref}
           value={value}
           onChange={(e) => onChange(e.target.value)}
+          onPaste={onPaste}
           rows={minRows}
           spellCheck
           className="block w-full resize-y bg-transparent px-4 py-4 font-mono text-[13.5px] leading-relaxed text-gray-800 outline-none dark:text-zinc-200"
