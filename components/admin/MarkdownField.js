@@ -132,7 +132,7 @@ export default function MarkdownField({ value, onChange, minRows = 18 }) {
           <button
             type="button"
             onClick={tidyAll}
-            title="Fix layout & spacing — never changes your words"
+            title="Fix layout & spacing, auto-detect H2 headings — never changes your words"
             className="flex items-center gap-1 rounded-md px-2 py-1 text-xs font-semibold text-gray-600 hover:bg-white hover:text-navy dark:text-zinc-300 dark:hover:bg-zinc-700"
           >
             ✨ Tidy
