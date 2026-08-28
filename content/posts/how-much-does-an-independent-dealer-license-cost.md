@@ -4,7 +4,7 @@ description: "See what an independent dealer license really costs, including app
 date: "2026-08-28"
 tags: ["Costs & Fees","Getting Licensed","Starting a Dealership"]
 status: "published"
-author: "Marcus Delaney"
+author: "george"
 focusKeyword: "independent dealer license costindependent dealer license cost"
 canonical: "independent-dealer-license-cost"
 ---
