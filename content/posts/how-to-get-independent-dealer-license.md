@@ -101,6 +101,9 @@ Show position
 
 Parking for Customers
 
+![cars parked in front of building during daytime](https://images.unsplash.com/photo-1621808752171-531c30903889?ixid=M3wxMDUyNTEyfDB8MXxzZWFyY2h8MXx8RGVhbGVyc2hpcHxlbnwxfDB8fHwxNzg4MzU2Mzc4fDA&ixlib=rb-4.1.0&w=1200&q=80&auto=format&fit=crop)
+*Photo by [Felix](https://unsplash.com/@felifox?utm_source=independent_dealer_license&utm_medium=referral) on Unsplash*
+
 Permanent signs
 
 Private entrance
@@ -190,6 +193,9 @@ Georgia: $35,000 for used motor vehicles sellers
 Washington: $30,000 car dealer bond
 
 Usually the bond amount is not the amount you pay. Typically you pay a fee to the surety firm.
+
+![a group of people in a car](https://images.unsplash.com/photo-1634981297356-f9b4daa98a92?ixid=M3wxMDUyNTEyfDB8MXxzZWFyY2h8Mnx8RGVhbGVyc2hpcHxlbnwxfDB8fHwxNzg4MzU2Mzc4fDA&ixlib=rb-4.1.0&w=1200&q=80&auto=format&fit=crop)
+*Photo by [Kazuo ota](https://unsplash.com/@kazuo513?utm_source=independent_dealer_license&utm_medium=referral) on Unsplash*
 
 Check before you buy:
 
@@ -283,6 +289,9 @@ Finger printing complete
 
 Charges Correct
 
+![different vehicles near glass walled building](https://images.unsplash.com/photo-1574023278981-0b48ba10e9ba?ixid=M3wxMDUyNTEyfDB8MXxzZWFyY2h8M3x8RGVhbGVyc2hpcHxlbnwxfDB8fHwxNzg4MzU2Mzc4fDA&ixlib=rb-4.1.0&w=1200&q=80&auto=format&fit=crop)
+*Photo by [Erik Mclean](https://unsplash.com/@introspectivedsgn?utm_source=independent_dealer_license&utm_medium=referral) on Unsplash*
+
 Keep a complete copy of the application.
 
 Step 12: Submit the Application.
@@ -372,6 +381,9 @@ Variations of Names
 Keep one master document with the precise legal business facts.
 
 Renewal Date(s) Missing
+
+![black and blue car in a building](https://images.unsplash.com/photo-1585390062628-be8608aa7d83?ixid=M3wxMDUyNTEyfDB8MXxzZWFyY2h8NHx8RGVhbGVyc2hpcHxlbnwxfDB8fHwxNzg4MzU2Mzc4fDA&ixlib=rb-4.1.0&w=1200&q=80&auto=format&fit=crop)
+*Photo by [Ildar Garifullin](https://unsplash.com/@garilens?utm_source=independent_dealer_license&utm_medium=referral) on Unsplash*
 
 Your dealer licence is not forever.
 
@@ -464,6 +476,9 @@ This is where you save dealer course certificates, test results, fingerprint ins
 5. Applying and getting approval
 
 Keep the final application, confirmation of submission, deficiency notes, emails, inspection result and licence approval here.
+
+![a row of cars parked in a parking lot](https://images.unsplash.com/photo-1574023240744-64c47c8c0676?ixid=M3wxMDUyNTEyfDB8MXxzZWFyY2h8NXx8RGVhbGVyc2hpcHxlbnwxfDB8fHwxNzg4MzU2Mzc4fDA&ixlib=rb-4.1.0&w=1200&q=80&auto=format&fit=crop)
+*Photo by [Erik Mclean](https://unsplash.com/@introspectivedsgn?utm_source=independent_dealer_license&utm_medium=referral) on Unsplash*
 
 It seems easy enough, but a tidy folder organization helps avoid the typical dilemma of knowing that you “definitely have that document somewhere” as a license deadline looms.
 
