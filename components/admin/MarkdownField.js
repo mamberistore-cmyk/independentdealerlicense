@@ -4,6 +4,7 @@ import { useRef, useState } from 'react';
 import Icon from './Icon';
 import { useToast } from './Toast';
 import { tidyText } from '@/lib/tidyText';
+import { distributeImages } from '@/lib/insertImages';
 
 const tools = [
   { key: 'bold', label: 'Bold', icon: 'B', wrap: ['**', '**'], text: 'bold text' },
@@ -20,13 +21,48 @@ const tools = [
   { key: 'hr', label: 'Divider', icon: 'redirects', insert: '\n---\n' },
 ];
 
-export default function MarkdownField({ value, onChange, minRows = 18 }) {
+export default function MarkdownField({ value, onChange, minRows = 18, imageKeyword = '' }) {
   const ref = useRef(null);
   const { notify } = useToast();
   const [tab, setTab] = useState('write');
   const [preview, setPreview] = useState('');
   const [loadingPreview, setLoadingPreview] = useState(false);
   const [autoTidy, setAutoTidy] = useState(true);
+  const [imgOpen, setImgOpen] = useState(false);
+  const [imgCount, setImgCount] = useState(3);
+  const [imgQuery, setImgQuery] = useState('');
+  const [imgLoading, setImgLoading] = useState(false);
+
+  // Fetch N relevant photos from Unsplash and auto-distribute them in the body.
+  const insertImages = async () => {
+    const query = (imgQuery || imageKeyword || 'business').trim();
+    setImgLoading(true);
+    try {
+      const res = await fetch(`/api/unsplash?query=${encodeURIComponent(query)}&count=${imgCount}`);
+      const data = await res.json();
+      if (!res.ok) {
+        notify(
+          data.configured === false
+            ? 'Add UNSPLASH_ACCESS_KEY in your env to enable auto-images.'
+            : data.error || 'Could not fetch images.',
+          'error',
+          4000
+        );
+        return;
+      }
+      if (!data.photos?.length) {
+        notify('No images found for that keyword.', 'info');
+        return;
+      }
+      onChange(distributeImages(value, data.photos));
+      notify(`${data.photos.length} image${data.photos.length === 1 ? '' : 's'} added & distributed`, 'success');
+      setImgOpen(false);
+    } catch (e) {
+      notify('Network error fetching images.', 'error');
+    } finally {
+      setImgLoading(false);
+    }
+  };
 
   // When pasting, clean up the LAYOUT of the pasted text (broken lines,
   // stray spaces) but keep every word — then insert it at the cursor.
@@ -131,6 +167,14 @@ export default function MarkdownField({ value, onChange, minRows = 18 }) {
         <div className="ml-auto flex items-center gap-2">
           <button
             type="button"
+            onClick={() => { setImgQuery((q) => q || imageKeyword); setImgOpen((v) => !v); }}
+            title="Auto-insert relevant images, distributed through the post"
+            className={`flex items-center gap-1 rounded-md px-2 py-1 text-xs font-semibold ${imgOpen ? 'bg-white text-navy dark:bg-zinc-700 dark:text-white' : 'text-gray-600 hover:bg-white hover:text-navy dark:text-zinc-300 dark:hover:bg-zinc-700'}`}
+          >
+            🖼 Images
+          </button>
+          <button
+            type="button"
             onClick={tidyAll}
             title="Fix layout & spacing, auto-detect H2 headings — never changes your words"
             className="flex items-center gap-1 rounded-md px-2 py-1 text-xs font-semibold text-gray-600 hover:bg-white hover:text-navy dark:text-zinc-300 dark:hover:bg-zinc-700"
@@ -151,6 +195,30 @@ export default function MarkdownField({ value, onChange, minRows = 18 }) {
           </div>
         </div>
       </div>
+
+      {imgOpen && (
+        <div className="flex flex-wrap items-end gap-3 border-b border-gray-200 bg-gray-50 px-3 py-3 dark:border-zinc-800 dark:bg-zinc-900/60">
+          <div>
+            <label className="mb-1 block text-[11px] font-medium text-gray-500 dark:text-zinc-400">How many</label>
+            <select value={imgCount} onChange={(e) => setImgCount(Number(e.target.value))} className="rounded-lg border border-gray-200 bg-white px-3 py-1.5 text-sm outline-none focus:border-navy/40 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-200">
+              {[1, 2, 3, 4, 5, 6].map((n) => <option key={n} value={n}>{n}</option>)}
+            </select>
+          </div>
+          <div className="min-w-[180px] flex-1">
+            <label className="mb-1 block text-[11px] font-medium text-gray-500 dark:text-zinc-400">Keyword / topic</label>
+            <input value={imgQuery} onChange={(e) => setImgQuery(e.target.value)} placeholder={imageKeyword || 'e.g. used car dealership'} className="w-full rounded-lg border border-gray-200 bg-white px-3 py-1.5 text-sm outline-none focus:border-navy/40 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-200" />
+          </div>
+          <button
+            type="button"
+            onClick={insertImages}
+            disabled={imgLoading}
+            className="rounded-lg bg-navy px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-navy-light disabled:opacity-60"
+          >
+            {imgLoading ? 'Fetching…' : 'Insert & distribute'}
+          </button>
+          <p className="w-full text-[11px] text-gray-400">Images from Unsplash are placed evenly through the post, right after section headings where possible. Each keeps its photographer credit.</p>
+        </div>
+      )}
 
       {tab === 'write' ? (
         <textarea

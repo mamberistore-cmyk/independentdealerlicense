@@ -1,5 +1,6 @@
 import SettingsView from '@/components/admin/SettingsView';
 import { githubReady } from '@/lib/github';
+import { unsplashReady } from '@/lib/unsplash';
 import { siteConfig } from '@/lib/config';
 
 export const dynamic = 'force-dynamic';
@@ -19,6 +20,7 @@ export default function SettingsPage({ searchParams }) {
     analytics: Boolean(siteConfig.gaId && !siteConfig.gaId.includes('XXXX')),
     gaId: siteConfig.gaId,
     searchConsole: siteConfig.searchConsoleVerified === true,
+    unsplash: unsplashReady(),
   };
 
   return <SettingsView tab={searchParams?.tab || 'general'} status={status} />;

@@ -136,6 +136,7 @@ export default function SettingsView({ tab, status }) {
           <IntegrationRow name="Session secret" ok={status.sessionSecret} help="Set SESSION_SECRET for signed sessions (a built-in fallback is used otherwise)." />
           <IntegrationRow name="Google Analytics" ok={status.analytics} detail={status.analytics ? `${status.gaId} · tag installed site-wide` : ''} help="Add GA to light up traffic dashboards." />
           <IntegrationRow name="Google Search Console" ok={status.searchConsole} detail={status.searchConsole ? 'Property verified' : ''} help="Verify your property to surface search metrics." />
+          <IntegrationRow name="Unsplash (auto-images)" ok={status.unsplash} help="Add UNSPLASH_ACCESS_KEY to auto-insert images in the editor." />
         </div>
       )}
     </div>

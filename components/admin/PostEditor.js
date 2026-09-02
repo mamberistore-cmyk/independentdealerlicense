@@ -273,7 +273,11 @@ export default function PostEditor({ mode = 'new', initial = null, categories = 
             placeholder="Optional subtitle / excerpt shown in cards and previews…"
             className={inputCls}
           />
-          <MarkdownField value={fields.body} onChange={(v) => update('body', v)} />
+          <MarkdownField
+            value={fields.body}
+            onChange={(v) => update('body', v)}
+            imageKeyword={(fields.tags.split(',')[0] || '').trim() || fields.category || fields.title}
+          />
         </div>
 
         {/* Right sidebar */}
