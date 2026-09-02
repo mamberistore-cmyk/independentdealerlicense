@@ -41,6 +41,9 @@ But if you can’t legitimately utilize a property as a dealership, then a cheap
 
 ## Step 1. Choose Your Business Structure.
 
+![a group of cars parked on a brick road](https://images.unsplash.com/photo-1656685299530-844ccb96b61d?ixid=M3wxMDUyNTEyfDB8MXxzZWFyY2h8MXx8ZGVhbGVyfGVufDF8MHx8fDE3ODgzNTU1MjZ8MA&ixlib=rb-4.1.0&w=1200&q=80&auto=format&fit=crop)
+*Photo by [Ivan Kazlouskij](https://unsplash.com/@ivankazlouskij?utm_source=independent_dealer_license&utm_medium=referral) on Unsplash*
+
 Think about how the firm will be structured legally before you apply. This may be a sole proprietorship, LLC, corporation, or any other kind of structure authorized in your state, depending on your situation.
 
 The SBA says your company structure affects taxes, paperwork, financing and personal responsibility. You’ll need to choose this option before you start filling out dealer paperwork, since the names and documents on your application must match your legal company records.
@@ -76,6 +79,9 @@ The state may demand a dealer-location condition, while the city or county may h
 Before you make your deposit, check with the local zoning or planning department to make sure the location may be used for retail motor vehicle sales. ### Example:
 
 Jordan spots a nice tiny business land that looks wonderful. The rent is cheap, the road is busy and there is room for many of cars. The landlord says, “A car business should be okay.
+
+![closeup photo of brown BMW vehicle](https://images.unsplash.com/photo-1570753195824-740d22016cd9?ixid=M3wxMDUyNTEyfDB8MXxzZWFyY2h8Mnx8ZGVhbGVyfGVufDF8MHx8fDE3ODgzNTU1MjZ8MA&ixlib=rb-4.1.0&w=1200&q=80&auto=format&fit=crop)
+*Photo by [Leon Seibert](https://unsplash.com/@yapics?utm_source=independent_dealer_license&utm_medium=referral) on Unsplash*
 
 “That’s not a zoning approval.
 
@@ -116,6 +122,9 @@ Some authorities screen prospective dealerships before issuing licenses. The ins
 Think of the inspection as a pre-opening audit.
 
 Before the official visit, go around the place and use the licensing checklist to compare the two. If the agency says a sign must be visible from the street, don’t assume a tiny sticker on the office door would suffice.
+
+![blue and silver cars on parking lot during daytime](https://images.unsplash.com/photo-1628846231746-b4ed87a0abef?ixid=M3wxMDUyNTEyfDB8MXxzZWFyY2h8M3x8ZGVhbGVyfGVufDF8MHx8fDE3ODgzNTU1MjZ8MA&ixlib=rb-4.1.0&w=1200&q=80&auto=format&fit=crop)
+*Photo by [taichi nakamura](https://unsplash.com/@naka_mura?utm_source=independent_dealer_license&utm_medium=referral) on Unsplash*
 
 ### A handy checklist before to inspection
 - Erect a business sign if necessary.- Office is open and available.
@@ -166,6 +175,9 @@ A better order would be:
 10. Develop your sales and record keeping systems.
 
 A single “dealer license master folder” with all paperwork and renewal dates might save a surprising amount of time.
+
+![a large room filled with lots of motorcycles](https://images.unsplash.com/photo-1671354925315-229af5178a83?ixid=M3wxMDUyNTEyfDB8MXxzZWFyY2h8NHx8ZGVhbGVyfGVufDF8MHx8fDE3ODgzNTU1MjZ8MA&ixlib=rb-4.1.0&w=1200&q=80&auto=format&fit=crop)
+*Photo by [Richard R](https://unsplash.com/@sepro?utm_source=independent_dealer_license&utm_medium=referral) on Unsplash*
 
 ## FAQ ## 1. Are independent sellers licensed nationally?
 
