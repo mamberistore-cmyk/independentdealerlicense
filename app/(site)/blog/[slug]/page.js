@@ -141,7 +141,7 @@ export default async function PostPage({ params }) {
       <div className="mx-auto max-w-prose px-5 py-12 sm:px-6">
         <div className="article-prose" dangerouslySetInnerHTML={{ __html: html }} />
 
-        <AdUnit slot="2222222222" label="Sponsored" />
+        <AdUnit slot="2222222222" label="Advertisement" />
 
         {/* Author card */}
         <div className="mt-12 rounded-xl2 border border-cream-300/70 bg-cream-50 p-6 shadow-soft sm:p-8">
