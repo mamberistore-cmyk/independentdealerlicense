@@ -282,7 +282,42 @@ export default function PostEditor({ mode = 'new', initial = null, categories = 
     }
   };
 
-  const catList = Array.from(new Set([...(categories || []), fields.category].filter(Boolean)));
+  // Load the site's existing tag/category taxonomy so the editor suggests
+  // consistent tags instead of inventing new ones each time.
+  const [taxTags, setTaxTags] = useState([]);
+  const [taxCategories, setTaxCategories] = useState(categories || []);
+  useEffect(() => {
+    let alive = true;
+    (async () => {
+      try {
+        const res = await fetch('/api/posts', { cache: 'no-store' });
+        const data = await res.json();
+        const posts = data.posts || [];
+        if (!alive) return;
+        setTaxTags(Array.from(new Set(posts.flatMap((p) => p.tags || []))).sort());
+        setTaxCategories(Array.from(new Set(posts.map((p) => p.category).filter(Boolean))));
+      } catch (e) {
+        /* taxonomy optional */
+      }
+    })();
+    return () => { alive = false; };
+  }, []);
+
+  const currentTags = fields.tags.split(',').map((t) => t.trim()).filter(Boolean);
+  const currentTagSet = new Set(currentTags.map((t) => t.toLowerCase()));
+  const addTag = (t) => {
+    if (currentTagSet.has(t.toLowerCase())) return;
+    setFields((f) => ({ ...f, tags: [...currentTags, t].join(', ') }));
+  };
+  const removeTag = (t) => {
+    setFields((f) => ({
+      ...f,
+      tags: currentTags.filter((x) => x.toLowerCase() !== t.toLowerCase()).join(', '),
+    }));
+  };
+  const suggestedTags = taxTags.filter((t) => !currentTagSet.has(t.toLowerCase()));
+
+  const catList = Array.from(new Set([...(categories || []), ...taxCategories, fields.category].filter(Boolean)));
 
   return (
     <div>
@@ -427,12 +462,43 @@ export default function PostEditor({ mode = 'new', initial = null, categories = 
 
           {/* Tags */}
           <Section title="Tags" icon="tags">
-            <input value={fields.tags} onChange={(e) => update('tags', e.target.value)} className={inputCls} placeholder="comma, separated, tags" />
-            <div className="mt-2 flex flex-wrap gap-1.5">
-              {fields.tags.split(',').map((t) => t.trim()).filter(Boolean).map((t) => (
-                <span key={t} className="rounded-full bg-clay-soft px-2 py-0.5 text-[11px] text-clay">{t}</span>
-              ))}
-            </div>
+            <input value={fields.tags} onChange={(e) => update('tags', e.target.value)} className={inputCls} placeholder="Type or pick from below…" />
+
+            {/* Selected tags — click × to remove */}
+            {currentTags.length > 0 && (
+              <div className="mt-2 flex flex-wrap gap-1.5">
+                {currentTags.map((t) => (
+                  <button
+                    key={t}
+                    type="button"
+                    onClick={() => removeTag(t)}
+                    className="inline-flex items-center gap-1 rounded-full bg-clay-soft px-2 py-0.5 text-[11px] text-clay hover:bg-clay/20"
+                    title="Remove"
+                  >
+                    {t} <span className="opacity-60">×</span>
+                  </button>
+                ))}
+              </div>
+            )}
+
+            {/* Suggestions from your existing tags — click + to add */}
+            {suggestedTags.length > 0 && (
+              <div className="mt-3">
+                <p className="mb-1.5 text-[10px] font-semibold uppercase tracking-wide text-gray-400">Your existing tags — click to add</p>
+                <div className="flex flex-wrap gap-1.5">
+                  {suggestedTags.slice(0, 24).map((t) => (
+                    <button
+                      key={t}
+                      type="button"
+                      onClick={() => addTag(t)}
+                      className="rounded-full border border-gray-200 bg-white px-2 py-0.5 text-[11px] text-gray-600 hover:border-navy/40 hover:text-navy dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-300"
+                    >
+                      + {t}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
           </Section>
 
           {/* SEO */}
