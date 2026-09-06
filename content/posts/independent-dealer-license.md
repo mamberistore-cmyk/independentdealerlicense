@@ -10,9 +10,9 @@ focusKeyword: "independent dealer license"
 ---
 # Do You Need An Independent Dealer License?
 
-Getting an independent dealer license is one of those things that seems easy until you open out the application. Then there are the business address problems, zoning laws, insurance, paperwork, taxes, inspections and a mound of things no one mentions in the sales pitch.
+Getting an independent dealer license is one of those things that seems easy until you open out the application. Then there are the business address problems, zoning laws, [insurance](/blog/how-much-does-an-independent-dealer-license-cost), paperwork, taxes, inspections and a mound of things no one mentions in the sales pitch.
 
-The good news is that it can be done if you approach the operation as a checklist and not a mystery. The important point is that there is no national " independent dealer license " that is uniform . Licensing is typically regulated by the state in the U.S., sometimes under the influence of county or municipal legislation. Costs and license requirements depend on your sort of company and locality, says the Small company Administration in the United States.
+The good news is that it can be done if you approach the operation as a checklist and not a mystery. The important point is that there is no national " independent dealer license " that is uniform . Licensing is typically regulated by the state in the U.S., sometimes under the influence of county or municipal legislation. Costs and license [requirements](/blog/how-to-get-independent-dealer-license) depend on your sort of company and locality, says the Small company Administration in the United States.
 
 So are you going to buy a few of cars at auction and flip them or are you going to start a complete dealership with inventory and financing and a lot? Your answer changes what you need to do.
 
