@@ -23,21 +23,21 @@ Before you invest money, consider what type of dealer you want to be.
 
 Some common categories:
 
-Motor Vehicle Dealer, retail used vehicles
+- Motor Vehicle Dealer, retail used vehicles
 
-Dealer (wholesale)
+- Dealer (wholesale)
 
-New car dealer (franchised)
+- New car dealer (franchised)
 
-Motorcycle shop
+- Motorcycle shop
 
-RV or caravan sales person
+- RV or caravan sales person
 
-Rebuilder or Salvage Dealer
+- Rebuilder or Salvage Dealer
 
-Dealer in an auction house
+- Dealer in an auction house
 
-Car Broker
+- Car Broker
 
 The distinction is important because, in most cases, a wholesale dealer cannot act like an average retail used-car lot.
 
@@ -57,27 +57,27 @@ Visit your state’s official dealer licensing website.
 
 Commonly required elements may be:
 
-Register your company
+- Register your company
 
-EIN
+- EIN
 
-Register for sales tax
+- Register for sales tax
 
-• Dealer education
+- Dealer education
 
-Surety bond insurance
+- Surety bond insurance
 
-Fingerprints
+- Fingerprints
 
-Zoning approval
+- Zoning approval
 
-Place of business, established
+- Place of business, established
 
-Permanent signs
+- Permanent signs
 
-Vehicle display space
+- Vehicle display space
 
-Inspection fee Application fee
+- Inspection fee Application fee
 
 The list varies by state and occasionally by dealer type.
 
@@ -91,15 +91,15 @@ And inexpensive office space doesn't matter if you're not selling cars at that p
 
 Depending on your state and local government, you may need:
 
-Commercial zoning
+- Commercial zoning
 
-Occupancy certificate
+- Occupancy certificate
 
-Dealer office space
+- Dealer office space
 
-Show position
+- Show position
 
-Parking for Customers
+- Parking for Customers
 
 ![cars parked in front of building during daytime](https://images.unsplash.com/photo-1621808752171-531c30903889?ixid=M3wxMDUyNTEyfDB8MXxzZWFyY2h8MXx8RGVhbGVyc2hpcHxlbnwxfDB8fHwxNzg4MzU2Mzc4fDA&ixlib=rb-4.1.0&w=1200&q=80&auto=format&fit=crop)
 *Photo by [Felix](https://unsplash.com/@felifox?utm_source=independent_dealer_license&utm_medium=referral) on Unsplash*
@@ -124,13 +124,13 @@ Choose a business structure.
 
 Some typical alternatives are:
 
-Exclusive Ownership
+- Exclusive Ownership
 
-LLC.
+- LLC.
 
-Corporation.
+- Corporation.
 
-Collaboration
+- Collaboration
 
 If you establish an LLC or company, register it with the proper state government.
 
@@ -146,13 +146,13 @@ The IRS assigns EINs for purposes of federal tax administration.
 
 You may also need:
 
-Account - Sales Tax (State)
+- Account - Sales Tax (State)
 
-Certificate of Resale
+- Certificate of Resale
 
-Registration for employer taxes
+- Registration for employer taxes
 
-Account local business tax
+- Account local business tax
 
 Before you open, set up the right accounts, since vehicle sales have title and tax responsibilities.
 
@@ -164,19 +164,19 @@ California has authorised training programs for used and wholesale-only sellers.
 
 Training often includes:
 
-Headings
+- Headings
 
-Odometer Disclosure
+- Odometer Disclosure
 
-Advertisement
+- Advertisement
 
-Temporary permits Temporary permissions
+- Temporary permits Temporary permissions
 
-Records
+- Records
 
-Dealer plates (Cont.)
+- Dealer plates (Cont.)
 
-Consumer protection law
+- Consumer protection law
 
 Don’t approach the course as a pointless piece of paperwork. A mistake in the title might cost more than the course itself.
 
@@ -186,11 +186,11 @@ Most states demand a bond from a dealer.
 
 Examples from state information today include:
 
-Texas: $50,000 for most independent GDN types who apply
+- Texas: $50,000 for most independent GDN types who apply
 
-Georgia: $35,000 for used motor vehicles sellers
+- Georgia: $35,000 for used motor vehicles sellers
 
-Washington: $30,000 car dealer bond
+- Washington: $30,000 car dealer bond
 
 Usually the bond amount is not the amount you pay. Typically you pay a fee to the surety firm.
 
@@ -199,17 +199,17 @@ Usually the bond amount is not the amount you pay. Typically you pay a fee to th
 
 Check before you buy:
 
-Bond Sum
+- Bond Sum
 
-Correct bond shape
+- Correct bond shape
 
-Business name
+- Business name
 
-Address
+- Address
 
-Dates of effect
+- Dates of effect
 
-Necessary signatures or power of attorney
+- Necessary signatures or power of attorney
 
 ## Step 8: Get Necessary Dealer Insurance
 
@@ -217,17 +217,17 @@ Surety bond and insurance are not the same.
 
 Coverage at participating dealers may include:
 
-Garage liability insurance
+- Garage liability insurance
 
-Auto commercial
+- Auto commercial
 
-General Liability Coverage
+- General Liability Coverage
 
-Garage custodian coverage
+- Garage custodian coverage
 
-Open lot/inventory coverage
+- Open lot/inventory coverage
 
-Workers compensation
+- Workers compensation
 
 For example, Georgia requires eligible used-dealer applicants to provide an insurance certificate complying with its dealer standards.
 
@@ -249,19 +249,19 @@ Don't think an outdated background check from some other reason will suffice for
 
 Your state may examine:
 
-Office Sign
+- Office Sign
 
-Display area Records
+- Display area Records
 
-Business location
+- Business location
 
-APPARATUS
+- APPARATUS
 
-Parking is free.
+- Parking is free.
 
-Zoning compliance
+- Zoning compliance
 
-Take the official check-list.
+- Take the official check-list.
 
 Don’t spend money on making the workplace lovely and ignore the one sign on the outside that the regulator really wants to see.
 
@@ -269,25 +269,25 @@ Don’t spend money on making the workplace lovely and ignore the one sign on th
 
 Before submitting, check:
 
-Name matches (legal)
+- Name matches (legal)
 
-Match addresses
+- Match addresses
 
-Bond is right
+- Bond is right
 
-Insurance is up to date
+- Insurance is up to date
 
-Signature on file
+- Signature on file
 
-Photos are sharp
+- Photos are sharp
 
-Zoning document attached
+- Zoning document attached
 
-Certificate of education included.
+- Certificate of education included.
 
-Finger printing complete
+- Finger printing complete
 
-Charges Correct
+- Charges Correct
 
 ![different vehicles near glass walled building](https://images.unsplash.com/photo-1574023278981-0b48ba10e9ba?ixid=M3wxMDUyNTEyfDB8MXxzZWFyY2h8M3x8RGVhbGVyc2hpcHxlbnwxfDB8fHwxNzg4MzU2Mzc4fDA&ixlib=rb-4.1.0&w=1200&q=80&auto=format&fit=crop)
 *Photo by [Erik Mclean](https://unsplash.com/@introspectivedsgn?utm_source=independent_dealer_license&utm_medium=referral) on Unsplash*
@@ -300,17 +300,17 @@ Most states now have online licensing websites.
 
 Once an application is filed it may be subject to:
 
-Admin review
+- Admin review
 
-Review of background
+- Review of background
 
-Verification of Documents
+- Verification of Documents
 
-Inspection of premises
+- Inspection of premises
 
-Correction of shortcomings
+- Correction of shortcomings
 
-Article final approval
+- Article final approval
 
 If the agency asks you to make an adjustment, answer swiftly and give precisely what was required.
 
@@ -322,15 +322,15 @@ Walk the dealership floor before the inspector shows up.
 
 Ask yourself this:
 
-"Is this sign correct?"
+- "Is this sign correct?"
 
-Is the office finished?
+- Is the office finished?
 
-Is the display area set up?
+- Is the display area set up?
 
-Is that correct for record storage?”
+- Is that correct for record storage?”
 
-Does the location fit the application?
+- Does the location fit the application?
 
 If it appears transient or incomplete to you, it may look the same way to the inspector.
 
@@ -346,17 +346,17 @@ Georgia, for example, cautions applicants that they cannot lawfully engage in de
 
 Once licensed, you still have to manage:
 
-Titles
+- Titles
 
-Odometer disclosures
+- Odometer disclosures
 
-Temporary Permits Taxes
+- Temporary Permits Taxes
 
-Dealer Tags
+- Dealer Tags
 
-Advertisement Archives Buyers Guides
+- Advertisement Archives Buyers Guides
 
-Warranty Financing Customer information Renewal
+- Warranty Financing Customer information Renewal
 
 The FTC Used Car Rule generally covers dealers who sell or offer to sell five or more used automobiles in a 12-month period, with few exceptions. The regulation mandates a Buyers Guide for covered, secondhand automobiles.
 
@@ -391,35 +391,35 @@ Your dealer licence is not forever.
 
 How to apply for a licence for an independent dealer:
 
-Select the correct kind of licence.
+- Select the correct kind of licence.
 
-Check the state's checklist.
+- Check the state's checklist.
 
-Check zoning.
+- Check zoning.
 
-Create an account for the company.
+- Create an account for the company.
 
-Obtain tax accounts and EIN.
+- Obtain tax accounts and EIN.
 
-Complete mandatory training.
+- Complete mandatory training.
 
-Take the bond.
+- Take the bond.
 
-Buy insurance.
+- Buy insurance.
 
-Full background required.
+- Full background required.
 
-Set up the premises.
+- Set up the premises.
 
-Audit the application
+- Audit the application
 
-Enter.
+- Enter.
 
-Pass inspection.
+- Pass inspection.
 
-Await active permission.
+- Await active permission.
 
-Keep up compliance.
+- Keep up compliance.
 
 ## FAQs
 
@@ -534,25 +534,25 @@ Once you have a live license, spend the first month establishing repeatable syst
 
 Prep:
 
-Inventory log
+- Inventory log
 
-Log title
+- Log title
 
-Buyers Guide procedure
+- Buyers Guide procedure
 
-Sales Document Checklist
+- Sales Document Checklist
 
-Customer Complaint File
+- Customer Complaint File
 
-Dealer plate logs
+- Dealer plate logs
 
-Fee and cash reconciliation
+- Fee and cash reconciliation
 
-Renewal calendar
+- Renewal calendar
 
-Employee Access Control
+- Employee Access Control
 
-Secure storage of records
+- Secure storage of records
 
 Your primary objective shouldn’t be to sell as many cars as you humanly can.
 

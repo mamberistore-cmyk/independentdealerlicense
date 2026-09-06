@@ -18,7 +18,9 @@ So are you going to buy a few of cars at auction and flip them or are you going 
 
 This manual explains the method in clear English, with an emphasis on the practical matters that matter most.
 
-## What does it mean to have an independent dealer licence? ### The question
+## What does it mean to have an independent dealer licence?
+
+### The question
 The real problem isn’t whether you sell online or only once in a while. It’s your state’s definition of dealer activity and any exceptions that may apply.” If you are not sure, check with the licensing agency before you design a business model based on an assumption.
 
 An independent dealer is often a vehicle seller that is not under a manufacturer's franchise system. The license name is different. One state may call it a used motor vehicle dealer license, another a 'independent dealer,' and another yet may classify licenses by car type or sales activity.
@@ -34,7 +36,8 @@ A dealership is more than just a website and a set of keys. Many countries’ au
 Before signing a lengthy company lease question yourself:Is it zoned for vehicle sales?
 - Do you require a permanent business sign for the state?
 - Minimum office or lot size?
-- Do company hours need to be advertised?- Does the licensing agency need an inspection?
+- Do company hours need to be advertised?
+- Does the licensing agency need an inspection?
 - Is inventory legally maintainable at the location requested?-Are there parking or access needs in the immediate area?
 
 But if you can’t legitimately utilize a property as a dealership, then a cheap property is not cheap.
@@ -50,7 +53,9 @@ The SBA says your company structure affects taxes, paperwork, financing and pers
 
 Many small companies choose LLCs because they give a formal corporate structure and separate business from personal matters, but the best choice for you will depend on your particular situation. A tax consultant and a corporate attorney can help you review your options.
 
-### Examples Alex wants to buy three cars at auction, restore them and sell them on the local market. Alex signs up a business name without paying attention to whether the dealer application wanted the legal entity name, the DBA name, or both. The application has been sent back for further information.
+### Examples
+
+Alex wants to buy three cars at auction, restore them and sell them on the local market. Alex signs up a business name without paying attention to whether the dealer application wanted the legal entity name, the DBA name, or both. The application has been sent back for further information.
 
 Nothing spectacular took place. But a two-minute check before submission may have saved days.
 
@@ -60,7 +65,8 @@ After you’ve figured up the structure and name, register the appropriate regis
 
 This might include, as appropriate to the structure and circumstances:
 
-- Set up your company with the state- Trade or dba name registration.
+- Set up your company with the state
+- Trade or dba name registration.
 - Employer Identification Number (EIN).
 - Registration for state tax.
 - Establishing a company locally.
@@ -76,7 +82,9 @@ That’s where many rookie dealers learn a painful lesson about real estate.
 
 The state may demand a dealer-location condition, while the city or county may have separate zoning ordinances. Both may be significant.
 
-Before you make your deposit, check with the local zoning or planning department to make sure the location may be used for retail motor vehicle sales. ### Example:
+Before you make your deposit, check with the local zoning or planning department to make sure the location may be used for retail motor vehicle sales.
+
+### Example:
 
 Jordan spots a nice tiny business land that looks wonderful. The rent is cheap, the road is busy and there is room for many of cars. The landlord says, “A car business should be okay.
 
@@ -93,9 +101,11 @@ Insurance needs vary by state, by kind of license, and by firm structure. Most d
 
 Depending on where you are, you could discover restrictions such as:
 
-- Dealer Liability Insurance- Garage Liability- surety bonds
+- Dealer Liability Insurance
+- Garage Liability- surety bonds
 - Insurance for Business
-- Evidence of financial responsibility.- Licensing costs or application fees
+- Evidence of financial responsibility.
+- Licensing costs or application fees
 
 Do not guess the required limits. Use current application material or contact the licensing agency.
 
@@ -105,13 +115,15 @@ One typical error is to get an insurance coverage that looks good but is not suf
 
 Kindly check all fields before submitting your form.
 
-Check it out:- The company name is the same everyplace.
+Check it out:
+- The company name is the same everyplace.
 - The address matches the approved location.
 - Ownership information is full.
 - All necessary signatures are in place.
 - Insurance Papers The proper legal name is.
 - The fees are paid in the proper amount and the right way.
-- Add any bonds required.- All relevant photos, lease agreements and site plans are provided.
+- Add any bonds required.
+- All relevant photos, lease agreements and site plans are provided.
 
 A single missing page may turn a basic application into an unwanted email chain.
 
@@ -127,10 +139,12 @@ Before the official visit, go around the place and use the licensing checklist t
 *Photo by [taichi nakamura](https://unsplash.com/@naka_mura?utm_source=independent_dealer_license&utm_medium=referral) on Unsplash*
 
 ### A handy checklist before to inspection
-- Erect a business sign if necessary.- Office is open and available.
+- Erect a business sign if necessary.
+- Office is open and available.
 - The required records area is set up.
 Phone number or contact information needed. Available.
--Compatible with inventory/display area.- Required papers are collected.
+- Compatible with inventory/display area.
+- Required papers are collected.
 - Easily recognizable address.If required photos are available.
 
 ## Step 7: Make Compliance Part of the Daily Workflow
@@ -147,11 +161,14 @@ Used SUV posted online by dealer. The client never comes to the lot until it is 
 
 A dealer could be brilliant at finding cars but terrible at admin.
 
-Take good notes of:- Purchase of vehicles.
+Take good notes of:
+- Purchase of vehicles.
 - Titles and proof of ownership.
 Purchase Agreements- Contract of Sale
 - Buying Guides
-- Records of repairs and reconditioning.- Marketing.- Letters to customers
+- Records of repairs and reconditioning.
+- Marketing.
+- Letters to customers
 - Taxes & Fees
 - Insurance for License Renewal
 
@@ -179,7 +196,9 @@ A single “dealer license master folder” with all paperwork and renewal dates
 ![a large room filled with lots of motorcycles](https://images.unsplash.com/photo-1671354925315-229af5178a83?ixid=M3wxMDUyNTEyfDB8MXxzZWFyY2h8NHx8ZGVhbGVyfGVufDF8MHx8fDE3ODgzNTU1MjZ8MA&ixlib=rb-4.1.0&w=1200&q=80&auto=format&fit=crop)
 *Photo by [Richard R](https://unsplash.com/@sepro?utm_source=independent_dealer_license&utm_medium=referral) on Unsplash*
 
-## FAQ ## 1. Are independent sellers licensed nationally?
+## FAQ
+
+## 1. Are independent sellers licensed nationally?
 
 No. Dealer licensing is typically a state issue, although there may be other regulations at the municipal level. The SBA advises businesses to look at the rules for their activity and location.
 
@@ -207,4 +226,7 @@ Start with the motor vehicle licensing agency in the state where the dealership 
 
 The independent dealer license is the legal underpinning of a company that deals with valuable objects, titles, taxes and client cash. The right way is simple: examine the site, get the company ready, provide the right documents and learn the consumer rules before the first transaction.
 
-When you see a requirement that seems confusing, ask the licensing agency, not some old forum post. This method may save you days of wasted work.” Sources:- U.S. Small Business Administration— License and permit information: https://www.sba.gov/business-guide/launch-your-business/apply-licenses-permits- Federal Trade Commission, Dealer's Guide to the Used Car Rule: https://www.ftc.gov/business-guidance/resources/dealers-guide-used-car-rule- National Automobile Dealers Association—Auto Retailing: https://www.nada.org/media/3264
+When you see a requirement that seems confusing, ask the licensing agency, not some old forum post. This method may save you days of wasted work.” Sources:
+- U.S. Small Business Administration— License and permit information: https://www.sba.gov/business-guide/launch-your-business/apply-licenses-permits
+- Federal Trade Commission, Dealer's Guide to the Used Car Rule: https://www.ftc.gov/business-guidance/resources/dealers-guide-used-car-rule
+- National Automobile Dealers Association—Auto Retailing: https://www.nada.org/media/3264
