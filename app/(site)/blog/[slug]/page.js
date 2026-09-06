@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
-import { getPostBySlug, getAllSlugs, getRelatedPosts } from '@/lib/posts';
+import { getPostBySlug, getPosts, getRelatedPosts } from '@/lib/posts';
 import { markdownToHtml } from '@/lib/markdown';
 import { siteConfig } from '@/lib/config';
 import Avatar from '@/components/Avatar';
@@ -9,14 +9,25 @@ import Tag from '@/components/Tag';
 import PostCard from '@/components/PostCard';
 import AdUnit from '@/components/AdUnit';
 
-// Pre-render every post at build time for maximum PageSpeed.
-export function generateStaticParams() {
-  return getAllSlugs().map((slug) => ({ slug }));
+// A post is public if it's published, or scheduled and its date has arrived.
+function isPublic(post) {
+  if (!post) return false;
+  if (post.status === 'published') return true;
+  if (post.status === 'scheduled') return new Date(post.date).getTime() <= Date.now();
+  return false;
 }
+
+// Pre-render only public posts. Drafts/private posts are never built or served.
+export function generateStaticParams() {
+  return getPosts().map((p) => ({ slug: p.slug }));
+}
+
+// Any slug not in the published list returns a real 404 (drafts included).
+export const dynamicParams = false;
 
 export function generateMetadata({ params }) {
   const post = getPostBySlug(params.slug);
-  if (!post) return { title: 'Not found' };
+  if (!isPublic(post)) return { title: 'Not found', robots: { index: false, follow: false } };
 
   const url = `${siteConfig.url}/blog/${post.slug}`;
   // Only honor a canonical override if it's a real absolute URL; otherwise a
@@ -49,7 +60,7 @@ export function generateMetadata({ params }) {
 
 export default async function PostPage({ params }) {
   const post = getPostBySlug(params.slug);
-  if (!post) notFound();
+  if (!isPublic(post)) notFound(); // drafts/private posts stay invisible publicly
 
   const html = await markdownToHtml(post.content);
   const related = getRelatedPosts(post.slug, post.tags, 3);

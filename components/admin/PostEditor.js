@@ -15,18 +15,49 @@ import { BASE } from '@/lib/adminNav';
 
 const today = () => new Date().toISOString().slice(0, 10);
 
-const STARTER = `Open with a real hook — a story, a number, a mistake you made.
+const STARTER = `Open with 2–3 short sentences that answer the main question fast, so a reader (and Google) knows they're in the right place. Keep the title above as your H1.
 
-## A section heading
+## Quick answer
 
-Write like you talk. Short paragraphs. A concrete example beats an adjective.
+Give the direct, honest answer in a sentence or two before the detail.
 
-- A practical point
-- Another one
+## What this means / background
 
-> Drop in a quote when it earns the space.
+Explain the key idea in plain language. Short paragraphs.
 
-Wrap up with the single most useful takeaway.`;
+## Step-by-step
+
+1. First step.
+2. Second step.
+3. Third step.
+
+## A real example
+
+Walk through a concrete, realistic scenario so the advice feels tangible.
+
+## Common mistakes to avoid
+
+- Mistake one — and what to do instead.
+- Mistake two.
+
+## Tips
+
+- A practical, specific tip.
+- Another useful one.
+
+## Frequently asked questions
+
+### Question one?
+
+Clear, short answer.
+
+### Question two?
+
+Clear, short answer.
+
+## Conclusion
+
+One tight paragraph with the single most useful takeaway and a natural next step.`;
 
 const inputCls =
   'w-full rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm outline-none focus:border-navy/40 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-200';

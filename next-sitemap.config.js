@@ -1,10 +1,11 @@
 const fs = require('fs');
 const path = require('path');
+const matter = require('gray-matter');
 
 const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL || 'https://independentdealerlicense.com';
 
-/** Collect every published post slug so each gets its own sitemap entry. */
+/** Collect published post slugs only — drafts/private posts stay out. */
 function getPostPaths() {
   const dir = path.join(process.cwd(), 'content', 'posts');
   let files = [];
@@ -13,15 +14,21 @@ function getPostPaths() {
   } catch (e) {
     files = [];
   }
-  return files.map((file) => {
-    const slug = file.replace(/\.md$/, '');
-    return {
-      loc: `/blog/${slug}`,
-      changefreq: 'weekly',
-      priority: 0.8,
-      lastmod: new Date().toISOString(),
-    };
-  });
+  return files
+    .map((file) => {
+      const slug = file.replace(/\.md$/, '');
+      let data = {};
+      try {
+        data = matter(fs.readFileSync(path.join(dir, file), 'utf8')).data || {};
+      } catch (e) {
+        data = {};
+      }
+      const status = String(data.status || 'published').toLowerCase();
+      const dateOk = !data.date || new Date(data.date).getTime() <= Date.now();
+      const isPublic = status === 'published' || (status === 'scheduled' && dateOk);
+      return isPublic ? { loc: `/blog/${slug}`, changefreq: 'weekly', priority: 0.8, lastmod: new Date().toISOString() } : null;
+    })
+    .filter(Boolean);
 }
 
 /** @type {import('next-sitemap').IConfig} */
