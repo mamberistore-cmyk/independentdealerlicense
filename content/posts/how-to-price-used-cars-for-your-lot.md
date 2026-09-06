@@ -1,9 +1,9 @@
 ---
 title: "How to Price Used Cars for Your Lot (Without Losing Money)"
 description: "How to price used cars so they actually sell: price to the market, respect the clock, and cut losers loose. A practical pricing guide for independent dealers."
-date: "2026-09-06"
+date: "2026-09-09T03:00:00Z"
 tags: ["business","startup","cost","beginners"]
-status: "draft"
+status: "scheduled"
 author: "George"
 seoTitle: "How to Price Used Cars So They Sell (Dealer Guide)"
 focusKeyword: "how to price used cars"

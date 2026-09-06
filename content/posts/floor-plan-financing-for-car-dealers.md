@@ -1,9 +1,9 @@
 ---
 title: "Floor Plan Financing for Used Car Dealers: How It Works"
 description: "Floor plan financing lets dealers stock more inventory than cash allows. Here's how it works, what it costs, and how to use it without sinking your lot."
-date: "2026-09-06"
+date: "2026-09-08T02:00:00Z"
 tags: ["financing","startup","business","cost"]
-status: "draft"
+status: "scheduled"
 author: "George"
 seoTitle: "Floor Plan Financing for Car Dealers: How It Works"
 focusKeyword: "floor plan financing for car dealers"

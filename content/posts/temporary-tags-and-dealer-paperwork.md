@@ -1,9 +1,9 @@
 ---
 title: "Temporary Tags and Dealer Paperwork Explained"
 description: "How dealer temporary tags work, the paperwork you must keep on every sale, and the simple per-deal system that keeps a used-car dealer audit-ready."
-date: "2026-09-06"
+date: "2026-09-10T02:00:00Z"
 tags: ["compliance","requirements","sales tax","beginners"]
-status: "draft"
+status: "scheduled"
 author: "George"
 seoTitle: "Temporary Tags and Dealer Paperwork Explained"
 focusKeyword: "dealer temporary tags"

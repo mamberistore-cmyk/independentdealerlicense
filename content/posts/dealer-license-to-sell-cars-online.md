@@ -1,9 +1,9 @@
 ---
 title: "Do You Need a Dealer License to Sell Cars Online?"
 description: "Selling cars online still counts as dealing. Here's when you need a dealer license to sell on marketplaces, how the rules apply, and how to do it legally."
-date: "2026-09-06"
+date: "2026-09-07T01:00:00Z"
 tags: ["requirements","curbstoning","licensing","beginners"]
-status: "draft"
+status: "scheduled"
 author: "George"
 seoTitle: "Do You Need a Dealer License to Sell Cars Online?"
 focusKeyword: "dealer license to sell cars online"

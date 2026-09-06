@@ -1,9 +1,9 @@
 ---
 title: "Dealer License Renewal and Compliance: A Yearly Checklist"
 description: "A simple yearly checklist to renew your dealer license and stay compliant — bond and insurance renewals, records, continuing education, and audit-ready habits."
-date: "2026-09-06"
+date: "2026-09-07T00:00:00Z"
 tags: ["compliance","requirements","surety bond","insurance"]
-status: "draft"
+status: "scheduled"
 author: "George"
 seoTitle: "Dealer License Renewal & Compliance: Yearly Checklist"
 focusKeyword: "dealer license renewal and compliance"

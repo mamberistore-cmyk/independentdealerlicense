@@ -1,9 +1,9 @@
 ---
 title: "Curbstoning: What It Is and Why It's Risky to Sell Without a License"
 description: "Curbstoning explained — what it is, how states detect it, the penalties, and why getting a dealer license is the cheaper, safer path to selling cars for profit."
-date: "2026-09-06"
+date: "2026-09-11T00:00:00Z"
 tags: ["curbstoning","compliance","licensing","requirements"]
-status: "draft"
+status: "scheduled"
 author: "George"
 seoTitle: "What Is Curbstoning? Risks of Selling Cars Without a License"
 focusKeyword: "what is curbstoning"

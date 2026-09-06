@@ -1,9 +1,9 @@
 ---
 title: "Wholesale vs. Retail Dealer License: Which One Do You Need?"
 description: "Wholesale vs. retail dealer license explained — who you can sell to, the cost and location differences, and how to choose the right one for your business."
-date: "2026-09-05"
+date: "2026-09-11T01:00:00Z"
 tags: ["wholesale","requirements","licensing","cost"]
-status: "draft"
+status: "scheduled"
 author: "George"
 seoTitle: "Wholesale vs. Retail Dealer License: Which Do You Need?"
 focusKeyword: "wholesale vs retail dealer license"

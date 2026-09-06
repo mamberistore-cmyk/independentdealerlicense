@@ -1,9 +1,9 @@
 ---
 title: "Dealer Pre-Licensing Education: What to Expect and How to Pass"
 description: "What dealer pre-licensing courses cover, how long they take, what they cost, and how to pass the exam — plus why the paperwork lessons actually matter."
-date: "2026-09-06"
+date: "2026-09-08T00:00:00Z"
 tags: ["dealer education","requirements","compliance","beginners"]
-status: "draft"
+status: "scheduled"
 author: "George"
 seoTitle: "Dealer Pre-Licensing Education: What to Expect & How to Pass"
 focusKeyword: "dealer pre-licensing education"

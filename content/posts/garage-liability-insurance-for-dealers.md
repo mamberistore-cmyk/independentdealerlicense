@@ -1,9 +1,9 @@
 ---
 title: "Garage Liability Insurance for Dealers: What You Actually Need"
 description: "Garage liability insurance explained for used-car dealers — what it covers, how it differs from a surety bond, typical limits, and how to avoid overpaying."
-date: "2026-09-06"
+date: "2026-09-08T03:00:00Z"
 tags: ["insurance","surety bond","requirements","cost"]
-status: "draft"
+status: "scheduled"
 author: "George"
 seoTitle: "Garage Liability Insurance for Dealers: What You Need"
 focusKeyword: "garage liability insurance for dealers"

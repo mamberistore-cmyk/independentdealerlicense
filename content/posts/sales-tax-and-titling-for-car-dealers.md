@@ -1,9 +1,9 @@
 ---
 title: "Sales Tax and Titling for Car Dealers: A Beginner's Guide"
 description: "How car dealers collect sales tax, transfer titles, and issue temporary tags — the paperwork side of selling used cars, explained simply for new dealers."
-date: "2026-09-06"
+date: "2026-09-10T01:00:00Z"
 tags: ["sales tax","compliance","requirements","beginners"]
-status: "draft"
+status: "scheduled"
 author: "George"
 seoTitle: "Sales Tax and Titling for Car Dealers (Beginner's Guide)"
 focusKeyword: "sales tax and titling for car dealers"

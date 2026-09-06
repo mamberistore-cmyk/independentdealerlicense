@@ -1,9 +1,9 @@
 ---
 title: "How Many Cars Can You Sell Before You Need a Dealer License?"
 description: "How many cars you can sell before needing a dealer license, why 'intent' matters as much as the number, and how to avoid an illegal-curbstoning charge."
-date: "2026-09-06"
+date: "2026-09-09T00:00:00Z"
 tags: ["requirements","compliance","beginners","licensing"]
-status: "draft"
+status: "scheduled"
 author: "George"
 seoTitle: "How Many Cars Can You Sell Without a Dealer License?"
 focusKeyword: "how many cars can you sell before a dealer license"

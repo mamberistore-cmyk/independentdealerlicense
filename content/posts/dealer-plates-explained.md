@@ -1,9 +1,9 @@
 ---
 title: "Dealer Plates Explained: How They Work and What They Cost"
 description: "What dealer plates are, who can use them, how much they cost, and the rules that keep you compliant. A plain-English guide for new independent dealers."
-date: "2026-09-06"
+date: "2026-09-07T03:00:00Z"
 tags: ["dealer plates","requirements","compliance","beginners"]
-status: "draft"
+status: "scheduled"
 author: "George"
 seoTitle: "Dealer Plates: How They Work, Rules, and Costs"
 focusKeyword: "dealer plates"

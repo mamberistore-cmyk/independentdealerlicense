@@ -1,9 +1,9 @@
 ---
 title: "How to Choose a Location for Your Used Car Dealership"
 description: "How to pick a compliant, profitable dealership location — zoning, lot size, signage, visibility, and the free phone call that saves new dealers thousands."
-date: "2026-09-06"
+date: "2026-09-09T02:00:00Z"
 tags: ["zoning","requirements","startup","compliance"]
-status: "draft"
+status: "scheduled"
 author: "George"
 seoTitle: "How to Choose a Used Car Dealership Location (Compliance + Profit)"
 focusKeyword: "used car dealership location"

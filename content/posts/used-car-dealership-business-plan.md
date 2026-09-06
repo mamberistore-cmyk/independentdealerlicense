@@ -1,9 +1,9 @@
 ---
 title: "How to Write a Simple Used Car Dealership Business Plan"
 description: "A practical, one-page business plan for a used-car lot: your niche, buyer, inventory sourcing, budget, pricing, and marketing — without the fluff."
-date: "2026-09-06"
+date: "2026-09-10T03:00:00Z"
 tags: ["business","startup","cost","beginners"]
-status: "draft"
+status: "scheduled"
 author: "George"
 seoTitle: "Simple Used Car Dealership Business Plan (Step by Step)"
 focusKeyword: "used car dealership business plan"

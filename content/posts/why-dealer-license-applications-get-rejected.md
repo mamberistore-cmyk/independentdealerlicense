@@ -1,9 +1,9 @@
 ---
 title: "Why Dealer License Applications Get Rejected (and How to Avoid It)"
 description: "The most common reasons a dealer license application gets rejected — zoning, bonds, mismatched names, missing signatures — and exactly how to prevent each one."
-date: "2026-09-03"
+date: "2026-09-11T02:00:00Z"
 tags: ["requirements","zoning","surety bond","compliance"]
-status: "draft"
+status: "scheduled"
 author: "George"
 seoTitle: "Why Dealer License Applications Get Rejected (Fix It Fast)"
 focusKeyword: "dealer license application rejected"

@@ -1,9 +1,9 @@
 ---
 title: "Independent Dealer License vs. Franchise Dealer License: Key Differences"
 description: "Independent vs. franchise dealer license — what each one lets you sell, how the requirements differ, what they cost, and which is right for your plan."
-date: "2026-09-06"
+date: "2026-09-10T00:00:00Z"
 tags: ["requirements","wholesale","licensing","beginners"]
-status: "draft"
+status: "scheduled"
 author: "George"
 seoTitle: "Independent vs. Franchise Dealer License: What's the Difference?"
 focusKeyword: "independent dealer license vs franchise"

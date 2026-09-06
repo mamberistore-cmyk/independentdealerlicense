@@ -1,9 +1,9 @@
 ---
 title: "How to Get a Dealer License Without a Lot (Home-Based Options)"
 description: "Can you get a dealer license without a car lot? Here are the home-based and wholesale options, what states actually require, and how to stay compliant."
-date: "2026-09-04"
+date: "2026-09-07T02:00:00Z"
 tags: ["requirements","wholesale","zoning","beginners"]
-status: "draft"
+status: "scheduled"
 author: "George"
 seoTitle: "Dealer License Without a Lot: Home-Based Options Explained"
 focusKeyword: "dealer license without a lot"

@@ -1,9 +1,9 @@
 ---
 title: "How to Buy Cars at Dealer-Only Auctions After You're Licensed"
 description: "A beginner's guide to buying at dealer-only auctions: how access works, reading condition reports, setting a max bid, fees, and avoiding costly mistakes."
-date: "2026-09-02"
+date: "2026-09-09T01:00:00Z"
 tags: ["auction","startup","business","beginners"]
-status: "draft"
+status: "scheduled"
 author: "George"
 seoTitle: "How to Buy Cars at Dealer-Only Auctions (Beginner's Guide)"
 focusKeyword: "buy cars at dealer auctions"
