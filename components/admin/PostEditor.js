@@ -277,6 +277,7 @@ export default function PostEditor({ mode = 'new', initial = null, categories = 
             value={fields.body}
             onChange={(v) => update('body', v)}
             imageKeyword={(fields.tags.split(',')[0] || '').trim() || fields.category || fields.title}
+            currentSlug={mode === 'edit' && initial ? initial.slug : fields.slug}
           />
         </div>
 

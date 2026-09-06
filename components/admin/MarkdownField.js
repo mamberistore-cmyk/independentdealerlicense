@@ -5,6 +5,7 @@ import Icon from './Icon';
 import { useToast } from './Toast';
 import { tidyText } from '@/lib/tidyText';
 import { distributeImages } from '@/lib/insertImages';
+import { autoLinkPosts } from '@/lib/autoLink';
 
 const tools = [
   { key: 'bold', label: 'Bold', icon: 'B', wrap: ['**', '**'], text: 'bold text' },
@@ -21,9 +22,31 @@ const tools = [
   { key: 'hr', label: 'Divider', icon: 'redirects', insert: '\n---\n' },
 ];
 
-export default function MarkdownField({ value, onChange, minRows = 18, imageKeyword = '' }) {
+export default function MarkdownField({ value, onChange, minRows = 18, imageKeyword = '', currentSlug = '' }) {
   const ref = useRef(null);
   const { notify } = useToast();
+  const [linking, setLinking] = useState(false);
+
+  // Scan the body for keywords matching your other posts and link them.
+  const autoLink = async () => {
+    setLinking(true);
+    try {
+      const res = await fetch('/api/posts', { cache: 'no-store' });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || 'Could not load posts.');
+      const { body, added } = autoLinkPosts(value, data.posts || [], currentSlug);
+      if (!added) {
+        notify('No new internal links found (need more published posts to link to).', 'info', 3500);
+        return;
+      }
+      onChange(body);
+      notify(`Added ${added} internal link${added === 1 ? '' : 's'} to your other posts`, 'success');
+    } catch (e) {
+      notify(e.message || 'Auto-linking failed.', 'error');
+    } finally {
+      setLinking(false);
+    }
+  };
   const [tab, setTab] = useState('write');
   const [preview, setPreview] = useState('');
   const [loadingPreview, setLoadingPreview] = useState(false);
@@ -165,6 +188,15 @@ export default function MarkdownField({ value, onChange, minRows = 18, imageKeyw
           </button>
         ))}
         <div className="ml-auto flex items-center gap-2">
+          <button
+            type="button"
+            onClick={autoLink}
+            disabled={linking}
+            title="Auto-link keywords to your other posts (internal links)"
+            className="flex items-center gap-1 rounded-md px-2 py-1 text-xs font-semibold text-gray-600 hover:bg-white hover:text-navy disabled:opacity-60 dark:text-zinc-300 dark:hover:bg-zinc-700"
+          >
+            {linking ? '…' : '🔗'} Links
+          </button>
           <button
             type="button"
             onClick={() => { setImgQuery((q) => q || imageKeyword); setImgOpen((v) => !v); }}
