@@ -9,7 +9,7 @@ seoTitle: "How to Get an Independent Dealer License: Step-by-Step"
 focusKeyword: "independent dealer license"
 canonical: "https://independentdealerlicense.com/blog/how-to-get-independent-dealer-license"
 ---
-It seems easy to start a used-car business until you get to the licensing checklist. There are issues about zoning, business entities, bonds, insurance, fingerprints, signage, inspections, dealer education, tax registration, application forms and suddenly.
+It seems easy to start a used-car business until you get to the licensing checklist. There are issues about zoning, business entities, bonds, [insurance](/blog/how-much-does-an-independent-dealer-license-cost), fingerprints, signage, inspections, dealer education, tax registration, application forms and suddenly.
 
 The good news is that the procedure is lot simpler when you execute the stages in the appropriate sequence.
 
@@ -81,7 +81,7 @@ Inspection fee Application fee
 
 The list varies by state and occasionally by dealer type.
 
-For example, California provides dealer application checklists and may require dealer education and testing for eligible used and wholesale-only applicants. Texas has provided extensive independent GDN and dealership premises advice. Georgia pre-licensing class, bond, insurance, zoning papers, background steps, business photos, and inspection requirements.
+For example, California provides dealer application checklists and may require dealer education and testing for eligible used and wholesale-only applicants. Texas has provided extensive independent GDN and dealership premises advice. Georgia pre-licensing class, bond, insurance, zoning papers, background steps, business photos, and inspection [requirements](/blog/independent-dealer-license).
 
 ## Step 3: Check zoning before signing a lease
 
