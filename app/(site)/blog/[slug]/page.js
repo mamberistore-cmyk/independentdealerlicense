@@ -19,7 +19,9 @@ export function generateMetadata({ params }) {
   if (!post) return { title: 'Not found' };
 
   const url = `${siteConfig.url}/blog/${post.slug}`;
-  const canonical = post.canonical || url;
+  // Only honor a canonical override if it's a real absolute URL; otherwise a
+  // stray value (e.g. a bare slug) would resolve to a wrong canonical.
+  const canonical = /^https?:\/\//.test(post.canonical || '') ? post.canonical : url;
   const ogImage = post.ogImage || post.cover;
   return {
     title: post.seoTitle || post.title,

@@ -2,11 +2,10 @@
 title: "How Much Does an Independent Dealer License Cost?"
 description: "See what an independent dealer license really costs, including application fees, surety bonds, insurance, rent, training, signage, and startup expenses."
 date: "2026-08-28"
-tags: ["Costs & Fees","Getting Licensed","Starting a Dealership"]
+tags: ["cost","surety bond","insurance","fees","startup"]
 status: "published"
-author: "george"
-focusKeyword: "independent dealer license costindependent dealer license cost"
-canonical: "independent-dealer-license-cost"
+author: "George"
+focusKeyword: "independent dealer license cost"
 ---
 The first thing that many people ask is, how much does it cost to get an independent dealer license?
 
@@ -27,7 +26,9 @@ In California, the cost of the application fee for a car dealer is $175 and is n
 Other states have distinct fee regimes.
 
 The main lesson is that a $175 or $500 application cost doesn't imply you can create a dealership for $175 or $500.
-![alt text](https://plus.unsplash.com/premium_photo-1661394915648-8ce7bb49e4e8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+
+![Cost breakdown for an independent dealer license](https://plus.unsplash.com/premium_photo-1661394915648-8ce7bb49e4e8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+
 ## 2. Cost of Forming a Business
 
 You may have to produce:
@@ -78,7 +79,7 @@ The better your credit, the lesser your premium.
 The other is charged a higher rate due to a ruined credit rating.
 
 Same amount of bond. Real cost different.
-![alt text](https://unsplash.com/photos/portrait-of-beautiful-young-saleswoman-standing-inside-vehicle-showroom-HvdYyo3a4eQ)
+
 ## 4. Insurance Expenses
 
 Dealer insurance may cover:

@@ -2,9 +2,9 @@
 title: "Do you need a dealer license independent? Full Guide & Requirements"
 description: "Learn how to get an independent dealer license, including business registration, zoning, insurance, application steps, inspections, and compliance."
 date: "2026-08-26"
-tags: ["dealer"]
+tags: ["requirements","insurance","compliance","beginners"]
 status: "published"
-author: "george"
+author: "George"
 seoTitle: "Independent Dealer License: Requirements & How to Apply"
 focusKeyword: "independent dealer license"
 ---
