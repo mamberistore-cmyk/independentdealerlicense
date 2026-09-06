@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { getPosts, getAllTags } from '@/lib/posts';
+import { slugify } from '@/lib/slug';
 import { siteConfig } from '@/lib/config';
 import PostCard from '@/components/PostCard';
 import Avatar from '@/components/Avatar';
@@ -145,7 +146,7 @@ export default function HomePage() {
             </h2>
             <div className="mt-6 flex flex-wrap gap-3">
               {tags.map(({ tag, count }) => (
-                <Tag key={tag} label={`${tag} (${count})`} size="lg" />
+                <Tag key={tag} label={`${tag} (${count})`} href={`/tags/${slugify(tag)}`} size="lg" />
               ))}
             </div>
           </div>
