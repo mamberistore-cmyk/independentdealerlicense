@@ -2,7 +2,7 @@
 title: "Dealer License Renewal and Compliance: A Yearly Checklist"
 description: "A simple yearly checklist to renew your dealer license and stay compliant — bond and insurance renewals, records, continuing education, and audit-ready habits."
 date: "2026-09-07"
-tags: ["auction","business","sales tax","licensing"]
+tags: ["auction","business","sales tax","licensing","requirements"]
 status: "published"
 author: "George"
 excerpt: "Getting licensed is a one time push; staying licensed is a yearly rhythm."
@@ -17,6 +17,9 @@ Each year: renew your license on time, renew your surety bond and [insurance](/b
 
 ## The renewals that must never lapse
 
+![brown wooden tool on white surface](https://images.unsplash.com/photo-1593115057322-e94b77572f20?ixid=M3wxMDUyNTEyfDB8MXxzZWFyY2h8MXx8YXVjdGlvbnxlbnwxfDB8fHwxNzg4NzE4ODgxfDA&ixlib=rb-4.1.0&w=1200&q=80&auto=format&fit=crop)
+*Photo by [Tingey Injury Law Firm](https://unsplash.com/@tingeyinjurylawfirm?utm_source=independent_dealer_license&utm_medium=referral) on Unsplash*
+
 ![The word compliance spelled out with wooden letter tiles on a rustic table](https://images.unsplash.com/photo-1704969724221-8b7361b61f75?ixid=M3wxMDUyNTEyfDB8MXxzZWFyY2h8MXx8Y29tcGxpYW5jZXxlbnwxfDB8fHwxNzg4NzE4Nzg5fDA&ixlib=rb-4.1.0&w=1200&q=80&auto=format&fit=crop)
 *Photo by [Markus Winkler](https://unsplash.com/@markuswinkler?utm_source=independent_dealer_license&utm_medium=referral) on Unsplash*
 
@@ -30,6 +33,9 @@ Set a reminder **30 days early** for each. This single habit prevents an entire 
 
 ## Records and recordkeeping
 
+![a woman standing next to another woman in a room](https://images.unsplash.com/photo-1702562547661-972d423fe806?ixid=M3wxMDUyNTEyfDB8MXxzZWFyY2h8Mnx8YXVjdGlvbnxlbnwxfDB8fHwxNzg4NzE4ODgxfDA&ixlib=rb-4.1.0&w=1200&q=80&auto=format&fit=crop)
+*Photo by [Anita Jankovic](https://unsplash.com/@dslr_newb?utm_source=independent_dealer_license&utm_medium=referral) on Unsplash*
+
 ![gray high rise buildings](https://images.unsplash.com/photo-1556442669-c07f12469979?ixid=M3wxMDUyNTEyfDB8MXxzZWFyY2h8Mnx8Y29tcGxpYW5jZXxlbnwxfDB8fHwxNzg4NzE4Nzg5fDA&ixlib=rb-4.1.0&w=1200&q=80&auto=format&fit=crop)
 *Photo by [Mathias Reding](https://unsplash.com/@matreding?utm_source=independent_dealer_license&utm_medium=referral) on Unsplash*
 
@@ -37,9 +43,12 @@ States require you to keep deal files — titles, odometer disclosures, bills of
 
 ## Continuing education and location
 
-Some states require **continuing education** at renewal — check yours. Also confirm your **location and signage** still meet the rules; requirements can change, and so can your lease.
+Some states require **continuing education** at renewal — check yours. Also confirm your **location and signage** still meet the rules; [requirements](/blog/why-dealer-license-applications-get-rejected) can change, and so can your lease.
 
 ## A real example
+
+![a group of people sitting in a room](https://images.unsplash.com/photo-1702562547904-2629f92f3967?ixid=M3wxMDUyNTEyfDB8MXxzZWFyY2h8M3x8YXVjdGlvbnxlbnwxfDB8fHwxNzg4NzE4ODgxfDA&ixlib=rb-4.1.0&w=1200&q=80&auto=format&fit=crop)
+*Photo by [Anita Jankovic](https://unsplash.com/@dslr_newb?utm_source=independent_dealer_license&utm_medium=referral) on Unsplash*
 
 ![a man and a woman standing in a room](https://images.unsplash.com/photo-1715635845581-b1683792ed25?ixid=M3wxMDUyNTEyfDB8MXxzZWFyY2h8M3x8Y29tcGxpYW5jZXxlbnwxfDB8fHwxNzg4NzE4Nzg5fDA&ixlib=rb-4.1.0&w=1200&q=80&auto=format&fit=crop)
 *Photo by [Cova Software](https://unsplash.com/@covasoftware?utm_source=independent_dealer_license&utm_medium=referral) on Unsplash*
@@ -54,6 +63,9 @@ Dana renews her license on time but forgets her bond renewal date. For two weeks
 - **Ignoring continuing-education** requirements.
 
 ## Tips
+
+![Person raising hand in a classroom setting with audience](https://images.unsplash.com/photo-1763896877724-b73d1ef2dc69?ixid=M3wxMDUyNTEyfDB8MXxzZWFyY2h8NHx8YXVjdGlvbnxlbnwxfDB8fHwxNzg4NzE4ODgxfDA&ixlib=rb-4.1.0&w=1200&q=80&auto=format&fit=crop)
+*Photo by [Kat von Wood](https://unsplash.com/@kat_von_wood?utm_source=independent_dealer_license&utm_medium=referral) on Unsplash*
 
 ![a blue sign on a white wall stating restricted area authorized personnel only](https://images.unsplash.com/photo-1615130104765-c140bd3c2c45?ixid=M3wxMDUyNTEyfDB8MXxzZWFyY2h8NHx8Y29tcGxpYW5jZXxlbnwxfDB8fHwxNzg4NzE4Nzg5fDA&ixlib=rb-4.1.0&w=1200&q=80&auto=format&fit=crop)
 *Photo by [Jarrod Erbe](https://unsplash.com/@erbephoto?utm_source=independent_dealer_license&utm_medium=referral) on Unsplash*
@@ -70,6 +82,9 @@ It varies — often yearly or every two years. Check your state and set a remind
 
 ### What happens if my bond or insurance lapses?
 
+![a wooden judge's hammer sitting on top of a table](https://images.unsplash.com/photo-1676181739859-08330dea8999?ixid=M3wxMDUyNTEyfDB8MXxzZWFyY2h8NXx8YXVjdGlvbnxlbnwxfDB8fHwxNzg4NzE4ODgxfDA&ixlib=rb-4.1.0&w=1200&q=80&auto=format&fit=crop)
+*Photo by [Wesley Tingey](https://unsplash.com/@wesleyphotography?utm_source=independent_dealer_license&utm_medium=referral) on Unsplash*
+
 ![Emergency exit sign is illuminated on a wall](https://images.unsplash.com/photo-1747699529551-a2d41eaebf93?ixid=M3wxMDUyNTEyfDB8MXxzZWFyY2h8NXx8Y29tcGxpYW5jZXxlbnwxfDB8fHwxNzg4NzE4Nzg5fDA&ixlib=rb-4.1.0&w=1200&q=80&auto=format&fit=crop)
 *Photo by [Pixel Shot](https://unsplash.com/@pixel_shot?utm_source=independent_dealer_license&utm_medium=referral) on Unsplash*
 
@@ -81,4 +96,4 @@ Some states require it at renewal; many do not. Confirm your state's rule.
 
 ## Conclusion
 
-Compliance is not complicated — it is a **calendar**. Renew your license, bond, and insurance before they lapse, keep clean deal records, handle any continuing education, and confirm your location still qualifies. Set the reminders once, keep the folders tidy, and your license quietly renews year after year while sloppier dealers scramble.
+Compliance is not complicated — it is a **calendar**. Renew your license, bond, and [insurance](/blog/garage-liability-insurance-for-dealers) before they lapse, keep clean deal records, handle any continuing education, and confirm your location still qualifies. Set the reminders once, keep the folders tidy, and your license quietly renews year after year while sloppier dealers scramble.
