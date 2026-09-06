@@ -11,7 +11,7 @@ The first thing that many people ask is, how much does it cost to get an indepen
 
 The trouble is, the license application price is just fraction of the total cost of starting up.
 
-A new dealer will also require company registration, a surety bond, insurance, education, fingerprints, commercial rent, zoning permissions, signs, dealer plates, office equipment, inventory and operating capital.
+A new dealer will also require company registration, a [surety bond](/blog/how-to-get-independent-dealer-license), insurance, education, fingerprints, commercial rent, zoning permissions, signs, dealer plates, office equipment, inventory and operating capital.
 
 So the honest answer is not a number.
 
@@ -157,7 +157,7 @@ Always check zoning before you sign a lease.
 
 Dealers may be required to have permanent signage that show the licensed company name.
 
-A compliance sign may range from a modest sum up into the thousands depending on size, materials, illumination, installation and local sign standards.
+A [compliance](/blog/independent-dealer-license) sign may range from a modest sum up into the thousands depending on size, materials, illumination, installation and local sign standards.
 
 First, choose the company name.
 
