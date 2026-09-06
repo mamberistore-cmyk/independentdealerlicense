@@ -9,6 +9,7 @@ import Icon from './Icon';
 import { Button } from './ui';
 import { useToast } from './Toast';
 import { slugify } from '@/lib/slug';
+import { suggestFields } from '@/lib/autofill';
 import { siteConfig } from '@/lib/config';
 import { BASE } from '@/lib/adminNav';
 
@@ -94,6 +95,7 @@ export default function PostEditor({ mode = 'new', initial = null, categories = 
   const [fields, setFields] = useState(seed);
   const [slugTouched, setSlugTouched] = useState(mode === 'edit');
   const [saving, setSaving] = useState(false);
+  const [autofilling, setAutofilling] = useState(false);
   const [autosavedAt, setAutosavedAt] = useState(null);
   const [recovered, setRecovered] = useState(null); // pending recovery payload
   const dirtyRef = useRef(false);
@@ -166,6 +168,42 @@ export default function PostEditor({ mode = 'new', initial = null, categories = 
     { label: 'Meta description completed', ok: fields.description.trim().length >= 50 },
     { label: 'URL slug optimized', ok: /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(fields.slug) },
   ];
+
+  // One click: fill tags, SEO title, meta description, focus keyword and
+  // excerpt from the title + body. Only fills empty fields; merges tags.
+  const autofill = async () => {
+    if (!fields.title.trim()) return notify('Write a title first.', 'error');
+    setAutofilling(true);
+    try {
+      let knownTags = [];
+      try {
+        const res = await fetch('/api/posts', { cache: 'no-store' });
+        const data = await res.json();
+        knownTags = (data.posts || []).flatMap((p) => p.tags || []);
+      } catch (e) {
+        /* taxonomy is optional */
+      }
+      const s = suggestFields({ title: fields.title, body: fields.body, knownTags });
+      setFields((f) => {
+        const next = { ...f };
+        const current = f.tags.split(',').map((t) => t.trim()).filter(Boolean);
+        const merged = [...current];
+        s.tags.forEach((t) => {
+          if (!merged.some((c) => c.toLowerCase() === t.toLowerCase())) merged.push(t);
+        });
+        next.tags = merged.join(', ');
+        if (!f.description.trim()) next.description = s.description;
+        if (!f.excerpt.trim()) next.excerpt = s.excerpt;
+        if (!f.seoTitle.trim()) next.seoTitle = s.seoTitle;
+        if (!f.focusKeyword.trim()) next.focusKeyword = s.focusKeyword;
+        if (!f.slug.trim() && mode === 'new') next.slug = slugify(f.title);
+        return next;
+      });
+      notify('Auto-filled tags, SEO & excerpt from your content', 'success');
+    } finally {
+      setAutofilling(false);
+    }
+  };
 
   const save = async (statusOverride) => {
     const status = statusOverride || effectiveStatus();
@@ -266,6 +304,14 @@ export default function PostEditor({ mode = 'new', initial = null, categories = 
               className="min-w-0 flex-1 bg-transparent text-gray-700 outline-none disabled:opacity-60 dark:text-zinc-200"
             />
           </div>
+          <button
+            type="button"
+            onClick={autofill}
+            disabled={autofilling}
+            className="flex w-full items-center justify-center gap-2 rounded-xl border border-dashed border-navy/30 bg-navy/[0.04] px-4 py-2.5 text-sm font-medium text-navy transition-colors hover:bg-navy/[0.08] disabled:opacity-60 dark:border-navy-light/40 dark:bg-navy/10 dark:text-navy-light"
+          >
+            {autofilling ? 'Filling…' : '✨ Auto-fill tags, SEO title, description & excerpt from the title + content'}
+          </button>
           <textarea
             value={fields.excerpt}
             onChange={(e) => update('excerpt', e.target.value)}
