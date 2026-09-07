@@ -4,7 +4,7 @@ description: "How car dealers collect sales tax, transfer titles, and issue temp
 date: "2026-09-10T01:00:00Z"
 tags: ["sales tax","compliance","requirements","beginners"]
 status: "scheduled"
-author: "George"
+author: "Giorgi Gudadze"
 seoTitle: "Sales Tax and Titling for Car Dealers (Beginner's Guide)"
 focusKeyword: "sales tax and titling for car dealers"
 ---

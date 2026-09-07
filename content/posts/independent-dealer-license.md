@@ -4,7 +4,7 @@ description: "Learn how to get an independent dealer license, including business
 date: "2026-08-26"
 tags: ["requirements","insurance","compliance","beginners"]
 status: "published"
-author: "George"
+author: "Giorgi Gudadze"
 seoTitle: "Independent Dealer License: Requirements & How to Apply"
 focusKeyword: "independent dealer license"
 ---

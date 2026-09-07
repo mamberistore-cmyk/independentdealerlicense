@@ -4,7 +4,7 @@ description: "Can you get a dealer license without a car lot? Here are the home-
 date: "2026-09-07T02:00:00Z"
 tags: ["requirements","wholesale","zoning","beginners"]
 status: "scheduled"
-author: "George"
+author: "Giorgi Gudadze"
 seoTitle: "Dealer License Without a Lot: Home-Based Options Explained"
 focusKeyword: "dealer license without a lot"
 ---

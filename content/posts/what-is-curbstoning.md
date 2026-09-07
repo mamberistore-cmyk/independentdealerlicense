@@ -4,7 +4,7 @@ description: "Curbstoning explained — what it is, how states detect it, the pe
 date: "2026-09-11T00:00:00Z"
 tags: ["curbstoning","compliance","licensing","requirements"]
 status: "scheduled"
-author: "George"
+author: "Giorgi Gudadze"
 seoTitle: "What Is Curbstoning? Risks of Selling Cars Without a License"
 focusKeyword: "what is curbstoning"
 ---

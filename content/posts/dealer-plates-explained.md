@@ -4,7 +4,7 @@ description: "What dealer plates are, who can use them, how much they cost, and 
 date: "2026-09-07T03:00:00Z"
 tags: ["dealer plates","requirements","compliance","beginners"]
 status: "scheduled"
-author: "George"
+author: "Giorgi Gudadze"
 seoTitle: "Dealer Plates: How They Work, Rules, and Costs"
 focusKeyword: "dealer plates"
 ---

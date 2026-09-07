@@ -4,7 +4,7 @@ description: "A beginner's guide to buying at dealer-only auctions: how access w
 date: "2026-09-02"
 tags: ["auction","startup","business","beginners","how to","used car","inspection","wholesale"]
 status: "published"
-author: "George"
+author: "Giorgi Gudadze"
 excerpt: "Once you hold a dealer license, dealer only auctions become your main source of cheap inventory — but they move fast and punish guesswork."
 seoTitle: "How to Buy Cars at Dealer-Only Auctions (Beginner's Guide)"
 focusKeyword: "buy cars at dealer auctions"

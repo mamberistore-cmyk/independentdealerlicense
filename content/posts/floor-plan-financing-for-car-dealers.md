@@ -4,7 +4,7 @@ description: "Floor plan financing lets dealers stock more inventory than cash a
 date: "2026-09-08T02:00:00Z"
 tags: ["financing","startup","business","cost"]
 status: "scheduled"
-author: "George"
+author: "Giorgi Gudadze"
 seoTitle: "Floor Plan Financing for Car Dealers: How It Works"
 focusKeyword: "floor plan financing for car dealers"
 ---

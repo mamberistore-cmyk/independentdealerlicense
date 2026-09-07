@@ -4,7 +4,7 @@ description: "See what an independent dealer license really costs, including app
 date: "2026-08-28"
 tags: ["cost","surety bond","insurance","fees","startup"]
 status: "published"
-author: "George"
+author: "Giorgi Gudadze"
 focusKeyword: "independent dealer license cost"
 ---
 The first thing that many people ask is, how much does it cost to get an independent dealer license?

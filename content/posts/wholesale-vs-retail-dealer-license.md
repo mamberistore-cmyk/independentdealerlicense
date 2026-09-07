@@ -4,7 +4,7 @@ description: "Wholesale vs. retail dealer license explained — who you can sell
 date: "2026-09-11T01:00:00Z"
 tags: ["wholesale","requirements","licensing","cost"]
 status: "scheduled"
-author: "George"
+author: "Giorgi Gudadze"
 seoTitle: "Wholesale vs. Retail Dealer License: Which Do You Need?"
 focusKeyword: "wholesale vs retail dealer license"
 ---

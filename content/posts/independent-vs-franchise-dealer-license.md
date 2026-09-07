@@ -4,7 +4,7 @@ description: "Independent vs. franchise dealer license — what each one lets yo
 date: "2026-09-10T00:00:00Z"
 tags: ["requirements","wholesale","licensing","beginners"]
 status: "scheduled"
-author: "George"
+author: "Giorgi Gudadze"
 seoTitle: "Independent vs. Franchise Dealer License: What's the Difference?"
 focusKeyword: "independent dealer license vs franchise"
 ---

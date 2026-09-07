@@ -44,7 +44,7 @@ export default function AboutPage() {
 
       <div className="article-prose mt-10">
         <p>
-          Hi — I’m Marcus. For the better part of a decade I worked the licensing
+          Hi — I’m Giorgi. For the better part of a decade I worked the licensing
           window at a state motor vehicle office. If you ever mailed in a dealer
           application and got it bounced back with a sticky note about a missing
           signature, there’s a real chance it crossed my desk. I saw thousands of

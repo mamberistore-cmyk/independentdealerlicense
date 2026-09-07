@@ -4,7 +4,7 @@ description: "Can you get a dealer surety bond with bad credit? Yes — here's h
 date: "2026-09-08T01:00:00Z"
 tags: ["surety bond","cost","requirements","beginners"]
 status: "scheduled"
-author: "George"
+author: "Giorgi Gudadze"
 seoTitle: "Dealer Surety Bond With Bad Credit: How to Get Approved"
 focusKeyword: "dealer surety bond with bad credit"
 ---

@@ -4,7 +4,7 @@ description: "How to price used cars so they actually sell: price to the market,
 date: "2026-09-09T03:00:00Z"
 tags: ["business","startup","cost","beginners"]
 status: "scheduled"
-author: "George"
+author: "Giorgi Gudadze"
 seoTitle: "How to Price Used Cars So They Sell (Dealer Guide)"
 focusKeyword: "how to price used cars"
 ---

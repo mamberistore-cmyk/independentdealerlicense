@@ -4,7 +4,7 @@ description: "How many cars you can sell before needing a dealer license, why 'i
 date: "2026-09-09T00:00:00Z"
 tags: ["requirements","compliance","beginners","licensing"]
 status: "scheduled"
-author: "George"
+author: "Giorgi Gudadze"
 seoTitle: "How Many Cars Can You Sell Without a Dealer License?"
 focusKeyword: "how many cars can you sell before a dealer license"
 ---

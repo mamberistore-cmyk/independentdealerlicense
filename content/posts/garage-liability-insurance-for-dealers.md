@@ -4,7 +4,7 @@ description: "Garage liability insurance explained for used-car dealers — what
 date: "2026-09-08T03:00:00Z"
 tags: ["insurance","surety bond","requirements","cost"]
 status: "scheduled"
-author: "George"
+author: "Giorgi Gudadze"
 seoTitle: "Garage Liability Insurance for Dealers: What You Need"
 focusKeyword: "garage liability insurance for dealers"
 ---

@@ -4,7 +4,7 @@ description: "How to pick a compliant, profitable dealership location — zoning
 date: "2026-09-09T02:00:00Z"
 tags: ["zoning","requirements","startup","compliance"]
 status: "scheduled"
-author: "George"
+author: "Giorgi Gudadze"
 seoTitle: "How to Choose a Used Car Dealership Location (Compliance + Profit)"
 focusKeyword: "used car dealership location"
 ---

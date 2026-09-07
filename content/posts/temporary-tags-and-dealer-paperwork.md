@@ -4,7 +4,7 @@ description: "How dealer temporary tags work, the paperwork you must keep on eve
 date: "2026-09-10T02:00:00Z"
 tags: ["compliance","requirements","sales tax","beginners"]
 status: "scheduled"
-author: "George"
+author: "Giorgi Gudadze"
 seoTitle: "Temporary Tags and Dealer Paperwork Explained"
 focusKeyword: "dealer temporary tags"
 ---

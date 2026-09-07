@@ -4,7 +4,7 @@ description: "What dealer pre-licensing courses cover, how long they take, what 
 date: "2026-09-08T00:00:00Z"
 tags: ["dealer education","requirements","compliance","beginners"]
 status: "scheduled"
-author: "George"
+author: "Giorgi Gudadze"
 seoTitle: "Dealer Pre-Licensing Education: What to Expect & How to Pass"
 focusKeyword: "dealer pre-licensing education"
 ---

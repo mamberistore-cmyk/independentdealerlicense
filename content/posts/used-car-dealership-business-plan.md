@@ -4,7 +4,7 @@ description: "A practical, one-page business plan for a used-car lot: your niche
 date: "2026-09-10T03:00:00Z"
 tags: ["business","startup","cost","beginners"]
 status: "scheduled"
-author: "George"
+author: "Giorgi Gudadze"
 seoTitle: "Simple Used Car Dealership Business Plan (Step by Step)"
 focusKeyword: "used car dealership business plan"
 ---

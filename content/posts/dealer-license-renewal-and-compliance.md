@@ -4,7 +4,7 @@ description: "A simple yearly checklist to renew your dealer license and stay co
 date: "2026-09-07"
 tags: ["auction","business","sales tax","licensing","requirements"]
 status: "published"
-author: "George"
+author: "Giorgi Gudadze"
 excerpt: "Getting licensed is a one time push; staying licensed is a yearly rhythm."
 seoTitle: "Dealer License Renewal & Compliance: Yearly Checklist"
 focusKeyword: "dealer license renewal and compliance"

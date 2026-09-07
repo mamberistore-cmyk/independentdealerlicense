@@ -4,7 +4,7 @@ description: "Selling cars online still counts as dealing. Here's when you need 
 date: "2026-09-07"
 tags: ["requirements","curbstoning","licensing","beginners"]
 status: "published"
-author: "George"
+author: "Giorgi Gudadze"
 seoTitle: "Do You Need a Dealer License to Sell Cars Online?"
 focusKeyword: "dealer license to sell cars online"
 ---
